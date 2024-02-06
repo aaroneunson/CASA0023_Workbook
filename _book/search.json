@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023_Workbook",
     "section": "",
-    "text": "Introduction\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n2 * 3\n\n[1] 6"
+    "text": "Introduction\nIntro content…"
   },
   {
     "objectID": "intro.html",
@@ -39,14 +39,14 @@
     "href": "Week2.html",
     "title": "2  Week 2 - Portfolio",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Week 2 content…\n\n\n\n\n\n\n\n\n\nThis is just an example presentation - mine will be added later :)"
   },
   {
     "objectID": "Week3.html",
     "href": "Week3.html",
     "title": "3  Week 3 - Corrections",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "Week 3 content …\n\n\n\nRatio Enhancement - NVDI Greater Than 0.2; Merged Tile\n\n\n\n\n\nTexture Enhancement - Sample Tile\n\n\n\n\n\nTexture Enhancement - Merged Area"
   },
   {
     "objectID": "Week5.html",
@@ -60,6 +60,6 @@
     "href": "Week4.html",
     "title": "4  Week 4 - Policy",
     "section": "",
-    "text": "Week 4 content…"
+    "text": "Week 4 content…\nNeed to decide on a policy!!"
   }
 ]

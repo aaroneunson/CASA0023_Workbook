@@ -1,3 +1,12 @@
 # Week 2 - Portfolio
 
 Week 2 content...
+
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "FirstPresentation_TEST/FirstPresentation_TEST.html",
+  ratio = "16:9")
+
+```
+
+> This is just an example presentation - mine will be added later :)
