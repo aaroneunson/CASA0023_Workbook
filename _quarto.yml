@@ -6,9 +6,12 @@ book:
   author: "Aaron Eunson"
   date: "23/01/2024"
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - Week0_intro.qmd
+    - Week1.qmd
+    - Week2.qmd
+    - Week3.qmd
+    - Week4.qmd
+    - Week5.qmd
     - references.qmd
 
 bibliography: references.bib
