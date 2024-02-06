@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023_Workbook",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n2 * 3\n\n[1] 6"
+    "text": "Introduction\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n2 * 3\n\n[1] 6"
   },
   {
     "objectID": "intro.html",
@@ -23,8 +23,43 @@
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "References",
+    "title": "5  References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week1.html",
+    "href": "Week1.html",
+    "title": "1  Week 1 - Getting Started With Remote Sensing",
+    "section": "",
+    "text": "Week 1 content…"
+  },
+  {
+    "objectID": "Week2.html",
+    "href": "Week2.html",
+    "title": "2  Week 2 - Portfolio",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week3.html",
+    "href": "Week3.html",
+    "title": "3  Week 3 - Corrections",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Week5.html",
+    "href": "Week5.html",
+    "title": "5  Week 5 - Google Earth Engine I",
+    "section": "",
+    "text": "Week 5 content…."
+  },
+  {
+    "objectID": "Week4.html",
+    "href": "Week4.html",
+    "title": "4  Week 4 - Policy",
+    "section": "",
+    "text": "Week 4 content…"
   }
 ]
