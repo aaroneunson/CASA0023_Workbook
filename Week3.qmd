@@ -6,6 +6,4 @@ Week 3 content ...
 
 ![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection.)
 
-![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection,)
-
-> Not sure why all of the images aren't being displayed...
+![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection.)
