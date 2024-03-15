@@ -1,3 +1,17 @@
 # Week 1 - Getting Started With Remote Sensing
 
-Week 1 content...
+## Sensor Types
+
+### Active
+
+### Passive
+
+## The Physics
+
+### Waves
+
+### Scattering
+
+### Reflection
+
+## Resolution
