@@ -9,3 +9,4 @@ Outputs:
 ![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection.)
 
 ![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection.)
+

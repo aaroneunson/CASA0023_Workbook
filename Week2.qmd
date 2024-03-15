@@ -9,4 +9,4 @@ xaringanExtra::embed_xaringan(
 
 ```
 
-> This is just an example presentation - mine will be added later :)
+> This is just an example presentation - mine will be added later :) 
