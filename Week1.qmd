@@ -1,7 +1,7 @@
 # Week 1 - Getting Started With Remote Sensing
 
 ## Sensor Types
-Making some changes
+Making some changes 
 
 ### Active
 

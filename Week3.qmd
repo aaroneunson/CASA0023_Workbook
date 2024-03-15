@@ -4,6 +4,10 @@ Week 3 content ...
 
 ![Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile](/Week3Content/week3_mergedtile_nvdimore0.2)
 
-![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection.)
+![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection)
 
+<<<<<<< HEAD
 ![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection.)
+=======
+![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection)
+>>>>>>> parent of 9d02e8e (trying to get all images to load)
