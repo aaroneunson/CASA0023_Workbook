@@ -2,6 +2,8 @@
 
 Week 3 content ...
 
+Outputs: 
+
 ![Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile](/Week3Content/week3_mergedtile_nvdimore0.2)
 
 ![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection.)
