@@ -7,32 +7,11 @@
     "text": "Introduction\nIntro content…"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "5  References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
     "objectID": "Week1.html",
     "href": "Week1.html",
     "title": "1  Week 1 - Getting Started With Remote Sensing",
     "section": "",
-    "text": "Week 1 content…"
+    "text": "trying to fix issues"
   },
   {
     "objectID": "Week2.html",
@@ -49,39 +28,11 @@
     "text": "Week 3 content …\n\n\n\nRatio Enhancement - NVDI Greater Than 0.2; Merged Tile\n\n\n\n\n\nTexture Enhancement - Sample Tile\n\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD  =======  &gt;&gt;&gt;&gt;&gt;&gt;&gt; parent of 9d02e8e (trying to get all images to load)"
   },
   {
-    "objectID": "Week5.html",
-    "href": "Week5.html",
-    "title": "5  Week 5 - Google Earth Engine I",
-    "section": "",
-    "text": "Week 5 content…."
-  },
-  {
     "objectID": "Week4.html",
     "href": "Week4.html",
     "title": "4  Week 4 - Policy",
     "section": "",
     "text": "Week 4 content…\nNeed to decide on a policy!!"
-  },
-  {
-    "objectID": "Week1.html#sensor-types",
-    "href": "Week1.html#sensor-types",
-    "title": "1  Week 1 - Getting Started With Remote Sensing",
-    "section": "1.1 Sensor Types",
-    "text": "1.1 Sensor Types\nMaking some changes\n\n1.1.1 Active\n\n\n1.1.2 Passive"
-  },
-  {
-    "objectID": "Week1.html#the-physics",
-    "href": "Week1.html#the-physics",
-    "title": "1  Week 1 - Getting Started With Remote Sensing",
-    "section": "1.2 The Physics",
-    "text": "1.2 The Physics\n\n1.2.1 Waves\n\n\n1.2.2 Scattering\n\n\n1.2.3 Reflection"
-  },
-  {
-    "objectID": "Week1.html#resolution",
-    "href": "Week1.html#resolution",
-    "title": "1  Week 1 - Getting Started With Remote Sensing",
-    "section": "1.3 Resolution",
-    "text": "1.3 Resolution"
   },
   {
     "objectID": "Week6.html",
