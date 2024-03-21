@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Presentation Ninja</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Aaron Eunson" />
+    <meta name="date" content="2024-03-21" />
+    <script src="FirstPresentation_TEST---Copy_files/header-attrs/header-attrs.js"></script>
+    <script src="FirstPresentation_TEST---Copy_files/htmlwidgets/htmlwidgets.js"></script>
+    <link href="FirstPresentation_TEST---Copy_files/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="FirstPresentation_TEST---Copy_files/datatables-binding/datatables.js"></script>
+    <script src="FirstPresentation_TEST---Copy_files/jquery/jquery-3.6.0.min.js"></script>
+    <link href="FirstPresentation_TEST---Copy_files/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="FirstPresentation_TEST---Copy_files/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="FirstPresentation_TEST---Copy_files/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="FirstPresentation_TEST---Copy_files/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
+    <script src="FirstPresentation_TEST---Copy_files/crosstalk/js/crosstalk.min.js"></script>
+    <script src="FirstPresentation_TEST---Copy_files/kePrint/kePrint.js"></script>
+    <link href="FirstPresentation_TEST---Copy_files/lightable/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Presentation Ninja
+]
+.author[
+### Aaron Eunson
+]
+.date[
+### 2024-03-21
+]
+
+---
+
+
+
+
+
+
+
+## Typography
+
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+
+[Link to another slide](#colors).
+
+### Lorem Ipsum
+
+Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
+Lacinia neque mollis nascetur neque urna velit bibendum. 
+Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
+
+- Dolor cubilia nostra nunc sodales
+
+- Consectetur aliquet mauris blandit
+
+- Ipsum dis nec porttitor urna sed
+
+---
+name: colors
+
+## Colors
+
+.left-column[
+Text color
+
+[Link Color](#3)
+
+**Bold Color**
+
+_Italic Color_
+
+`Inline Code`
+]
+
+.right-column[
+Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Erat nam at lectus urna.
+Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
+_Eros donec ac odio tempor_ orci dapibus ultrices. 
+Id porta nibh venenatis cras sed felis eget velit aliquet.
+Aliquam id diam maecenas ultricies mi.
+Enim sit amet 
+`code_color("inline")`
+venenatis urna cursus eget nunc scelerisque viverra.
+]
+
+---
+
+# Big Topic or Inverse Slides `#`
+
+## Slide Headings `##`
+
+### Sub-slide Headings `###`
+
+#### Bold Call-Out `####`
+
+This is a normal paragraph text. Only use header levels 1-4.
+
+##### Possible, but not recommended `#####`
+
+###### Definitely don't use h6 `######`
+
+---
+
+# Left-Column Headings
+
+.left-column[
+## First
+
+## Second
+
+## Third
+]
+
+.right-column[
+Dolor quis aptent mus a dictum ultricies egestas.
+
+Amet egestas neque tempor fermentum proin massa!
+
+Dolor elementum fermentum pharetra lectus arcu pulvinar.
+]
+
+---
+class: inverse center middle
+
+# Topic Changing Interstitial
+
+--
+
+```
+class: inverse center middle
+```
+
+---
+layout: true
+
+## Blocks
+
+---
+
+### Blockquote
+
+&gt; This is a blockquote following a header.
+&gt;
+&gt; When something is important enough, you do it even if the odds are not in your favor.
+
+---
+
+### Code Blocks
+
+#### R Code
+
+
+```r
+ggplot(gapminder) +
+  aes(x = gdpPercap, y = lifeExp, size = pop, color = country) +
+  geom_point() +
+  facet_wrap(~year)
+```
+
+#### JavaScript
+
+```js
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+---
+
+### More R Code
+
+
+```r
+dplyr::starwars %&gt;% dplyr::slice_sample(n = 4)
+```
+
+---
+
+
+```r
+cli::cli_alert_success("It worked!")
+```
+
+```
+## ✔ It worked!
+```
+
+--
+
+
+```r
+message("Just a friendly message")
+```
+
+```
+## Just a friendly message
+```
+
+--
+
+
+```r
+warning("This could be bad...")
+```
+
+```
+## Warning: This could be bad...
+```
+
+--
+
+
+```r
+stop("I hope you're sitting down for this")
+```
+
+```
+## Error in eval(expr, envir, enclos): I hope you're sitting down for this
+```
+
+
+---
+layout: true
+
+## Tables
+
+---
+exclude: false
+
+
+```r
+tibble::as_tibble(mtcars)
+```
+
+```
+## # A tibble: 32 × 11
+##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
+##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
+##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
+##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
+##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
+##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
+##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
+##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
+##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
+## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
+## # ℹ 22 more rows
+```
+
+---
+
+
+```r
+knitr::kable(head(mtcars), format = 'html')
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mpg &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; cyl &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; disp &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; hp &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; drat &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; wt &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; qsec &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; vs &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; am &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; gear &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; carb &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Mazda RX4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 21.0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 160 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 110 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.90 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2.620 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 16.46 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Mazda RX4 Wag &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 21.0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 160 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 110 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.90 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2.875 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 17.02 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Datsun 710 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 22.8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 108 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 93 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.85 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2.320 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 18.61 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Hornet 4 Drive &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 21.4 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 258 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 110 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.08 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.215 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 19.44 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Hornet Sportabout &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 18.7 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 360 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 175 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.15 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.440 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 17.02 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Valiant &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 18.1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 225 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 105 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2.76 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3.460 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20.22 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+exclude: false
+
+
+```r
+DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
+```
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-46286fabb6c791eeddd7" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-46286fabb6c791eeddd7">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant"],[21,21,22.8,21.4,18.7,18.1],[6,6,4,6,8,6],[160,160,108,258,360,225],[110,110,93,110,175,105],[3.9,3.9,3.85,3.08,3.15,2.76],[2.62,2.875,2.32,3.215,3.44,3.46],[16.46,17.02,18.61,19.44,17.02,20.22],[0,0,1,1,0,1],[1,1,1,0,0,0],[4,4,4,3,3,3],[4,4,1,1,2,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"mpg","targets":1},{"name":"cyl","targets":2},{"name":"disp","targets":3},{"name":"hp","targets":4},{"name":"drat","targets":5},{"name":"wt","targets":6},{"name":"qsec","targets":7},{"name":"vs","targets":8},{"name":"am","targets":9},{"name":"gear","targets":10},{"name":"carb","targets":11}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+
+---
+layout: true
+
+## Lists
+
+---
+
+.pull-left[
+#### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+]
+
+.pull-right[
+
+#### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+]
+
+---
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+---
+
+### Nesting an ol in ul in an ol
+
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+  1. level 4 item (ol)
+  1. level 4 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+
+---
+layout: true
+
+## Plots
+
+---
+
+
+```r
+library(ggplot2)
+(g &lt;- ggplot(mpg) + aes(hwy, cty, color = class) + geom_point())
+```
+
+&lt;img src="FirstPresentation_TEST---Copy_files/figure-html/plot-example-1.png" width="100%" /&gt;
+
+---
+
+
+```r
+g + xaringanthemer::theme_xaringan(text_font_size = 16, title_font_size = 18) +
+  ggtitle("A Plot About Cars")
+```
+
+.footnote[Requires `{showtext}`]
+
+---
+layout: false
+
+## Square image
+
+&lt;center&gt;&lt;img src="https://octodex.github.com/images/labtocat.png" alt="GithHub Octocat" height="400px" /&gt;&lt;/center&gt;
+
+.footnote[GitHub Octocat]
+
+---
+
+### Wide image
+
+![A wide image with a diagram of branching in git.](https://docs.github.com/assets/images/help/repository/branching.png)
+
+.footnote[Wide images scale to 100% slide width]
+
+---
+
+## Two images
+
+.pull-left[
+![A GitHub Octocat, style "mother hubber"](https://octodex.github.com/images/motherhubbertocat.png)
+]
+
+.pull-right[
+![A GitHub Octocat, style "dinotcat"](https://octodex.github.com/images/dinotocat.png)
+]
+
+---
+
+### Definition lists can be used with HTML syntax.
+
+&lt;dl&gt;
+&lt;dt&gt;Name&lt;/dt&gt;
+&lt;dd&gt;Godzilla&lt;/dd&gt;
+&lt;dt&gt;Born&lt;/dt&gt;
+&lt;dd&gt;1952&lt;/dd&gt;
+&lt;dt&gt;Birthplace&lt;/dt&gt;
+&lt;dd&gt;Japan&lt;/dd&gt;
+&lt;dt&gt;Color&lt;/dt&gt;
+&lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)&lt;br&gt;
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
+---
+
+# Summary: Landsat 5
+
+- Part of Landsat programme managed by NASA and United States Geological Survey (USGS)
+- Launched in 1984; decommissioned in 2013 (29 year lifespan)
+- Guiness World Record: 'Longest Operating Earth Observation Satellite'
+  - Original life expectancy of 3 years
+  - Orbited at 705 km above Earth
+- Circled the Earth every 99 minutes, with 14 orbits per day
+- Passive sensor: relying on sunlight reflected and emitted from the Earth's surface
+
+---
+
+# Summary: Overview of Sensors
+
+&lt;table class="table table-bordered table-condensed" style="font-size: 10px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; ...1 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spectral Resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spatial Resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Radiometric Resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Applications and Use &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="3"&gt; MSS &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Four spectral bands (two in the visible light range (green and red) and two in the near-infrared). &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 80 meters, meaning each pixel in an image represents an area of 80 meters by 80 meters on the Earth's surface.  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 6 bits, capable of distinguishing 64 levels of brightness in each band.  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Despite its limitations, the MSS was groundbreaking in its time, enabling the first continuous global monitoring of Earth's surface. It was widely used for assessing land use and land cover changes, monitoring deforestation, and mapping large-scale geological features. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; Used in the earlier Landsat missions (Landsat 1 through 5) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; This resolution was sufficient for broad land cover classification and change detection studies at a regional scale. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; This radiometric resolution limits the sensor's ability to detect subtle differences in surface reflectance. &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="2"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; Was a pioneering technology for its time, allowing for the differentiation of various surface types and conditions. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="3"&gt; TM &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Seven spectral bands (additional bands in the visible spectrum, near-infrared, a mid-infrared band, and a thermal infrared band).  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30 meters for its visible, near-infrared, and mid-infrared bands. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 8 bits, allowing for 256 levels of brightness.  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; With its enhanced spectral, spatial, and radiometric resolution, the TM sensor expanded the applications of remote sensing to include more precise agriculture monitoring (e.g., crop type differentiation, stress detection), detailed geological mapping, urban planning, and environmental monitoring (e.g., wetlands assessment, water quality). &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; Introduced in Landsat 4, used again in Landsat 5. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 120 meters for the thermal band. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: middle !important;" rowspan="2"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; The expanded spectral coverage allows for more detailed analysis of land and water features, vegetation health, and soil moisture. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; The finer spatial resolution enables more detailed observations suitable for localized environmental monitoring, agriculture, and forestry applications. &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; This enhancement enables TM to detect finer variations in reflectance and emissivity across its spectral bands, improving the analysis of vegetation types, soil properties, and water quality. &lt;/td&gt;
+   
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+# Summary: Purposes
+
+Landsat 5 was originally designed to continue the Landsat program's objective of monitoring Earth's land surface. The primary purposes were:
+- Monitoring environmental change to inform land use planning and environmental policy.
+- Supporting agricultural and forestry management through detailed observations of land cover and vegetation health.
+- Assisting in the management of water resources by mapping the extent and health of water bodies.
+- Contributing to disaster response efforts by providing detailed images of affected areas.
+By collecting data across different wavelengths of light, Landsat 5 was able to detect variations in the Earth's surface not visible to the naked eye.  
+For example, healthy vegetation strongly reflects near-infrared light, while diseased or stressed vegetation reflects less, allowing scientists to assess plant health across vast areas. Similarly, the thermal band was used to estimate soil moisture levels, a crucial factor in agriculture and drought assessment.  
+
+---
+
+# Application Forest Management
+
+Forest Type Classification: Landsat 5 data is used to classify different forest types based on spectral signatures. By analyzing the reflectance values of different wavelengths captured by Landsat 5 sensors, researchers and forest managers can differentiate between various forest types such as deciduous, coniferous, and mixed forests. This information is essential for understanding the distribution and composition of forests, which in turn aids in forest management and conservation efforts.
+
+Biomass Estimation: Landsat 5 data is utilized for estimating forest biomass, which is crucial for assessing carbon stocks and understanding forest health. By correlating spectral information from Landsat 5 imagery with ground-based measurements of biomass, researchers can develop models to predict biomass distribution across forested areas. This information is valuable for monitoring changes in biomass over time, assessing the effectiveness of forest management practices, and implementing strategies for carbon sequestration and climate change mitigation.
+
+Disturbance Detection: Landsat 5 data is instrumental in detecting forest disturbances such as wildfires, insect outbreaks, and logging activities. By comparing multispectral imagery from different time periods, forest managers can identify changes in forest cover and detect areas affected by disturbances. Landsat 5's long-term archive of imagery allows for the monitoring of forest disturbances over extended periods, enabling timely response and management interventions to mitigate the impacts of disturbances on forest ecosystems.
+
+---
+
+# Application: River Management
+
+Landsat 5 has been a vital tool for river monitoring and management due to its comprehensive data collection capabilities. Here's a summary of how it has been utilized for river monitoring:
+
+- Water Quality Assessment: Landsat 5's spectral bands, especially those in the visible and near-infrared wavelengths, allow for the assessment of water quality by detecting suspended sediments, algal blooms, and other water quality indicators. Changes in these indicators over time can be monitored to assess the impact of pollution, agricultural runoff, and industrial discharge on rivers.
+- River Dynamics and Morphology: The high spatial resolution of Landsat 5 images enables the detailed mapping of river courses, changes in river morphology, and sediment transport. This information is crucial for understanding natural processes like erosion and sediment deposition, as well as human-induced changes such as dam construction and river diversion.
+- Flood Mapping and Management: Landsat 5 data has been widely used to map flood extents and assess flood damage. By comparing pre- and post-flood imagery, authorities can quickly identify affected areas, making it easier to coordinate response efforts and plan for flood mitigation and recovery.
+- Vegetation and Wetland Monitoring: The near-infrared and short-wave infrared bands of Landsat 5 are particularly useful for monitoring vegetation health and wetland extents around rivers. This information helps in the conservation of riparian zones and wetlands, which are critical for maintaining biodiversity and providing natural water filtration.
+- Long-term Environmental Monitoring: Perhaps one of the most significant contributions of Landsat 5 is its long operational life, which has provided a continuous data record over nearly three decades. This long-term dataset is invaluable for studying environmental changes, climate change impacts on river systems, and the effectiveness of river management and conservation strategies over time.
+
+The combination of Landsat 5's spectral capabilities, spatial resolution, and extensive data archive has made it an indispensable resource for environmental scientists, water resource managers, and policy-makers involved in river monitoring and management.
+
+---
+
+# Application: Agricultural Monitoring
+
+Crop Monitoring: Landsat 5 imagery is extensively used for monitoring crop growth and health. By analyzing multispectral data from Landsat 5 sensors, researchers and farmers can track changes in vegetation indices such as NDVI (Normalized Difference Vegetation Index) over time, which provides insights into crop vigor, stress levels, and phenological stages. This information is crucial for making informed decisions related to irrigation scheduling, fertilizer application, and pest management.
+
+Yield Estimation: Landsat 5 data is employed for estimating crop yields by analyzing the relationship between spectral reflectance and crop biomass. By calibrating Landsat 5 imagery with ground-based measurements of crop yield, researchers can develop models to predict crop productivity across agricultural landscapes. This information enables farmers to optimize agricultural practices, allocate resources efficiently, and plan for harvest operations.
+
+Land Use Mapping: Landsat 5 imagery is used for mapping agricultural land use and land cover types. By classifying Landsat 5 multispectral data into different categories such as cropland, pasture, and fallow land, researchers can assess changes in land use patterns over time and monitor agricultural expansion or intensification. This information supports land use planning, natural resource management, and policy development aimed at promoting sustainable agriculture.
+
+---
+
+# Reflection: Longevity
+
+One of the most remarkable features of Landsat 5 is its extraordinary longevity, far surpassing its expected operational lifespan of three years. Over its nearly 29 years in orbit, the satellite acquired a vast amount of data, totaling over 2.5 million images of Earth's surface.
+
+This longevity has yielded numerous benefits for environmental monitoring, resource management, and scientific research. Landsat 5's extensive data archive provides a valuable historical record of global land cover and land use changes, allowing scientists to analyze trends, detect anomalies, and assess the impact of human activities on the environment.
+
+Furthermore, Landsat 5's long-term data continuity has facilitated the development of consistent, reliable datasets for various applications, including land cover mapping, vegetation monitoring, and water resource management. Researchers and policymakers rely on Landsat 5 data to make informed decisions about land use planning, natural resource conservation, and disaster response.
+
+In addition, Landsat 5's longevity has paved the way for future satellite missions, demonstrating the feasibility and benefits of long-term Earth observation programs. The satellite's remarkable durability has inspired confidence in the reliability and effectiveness of satellite-based remote sensing for monitoring and managing Earth's resources.
+
+In conclusion, Landsat 5's longevity has provided a wealth of data that has been instrumental in advancing scientific understanding, informing decision-making, and addressing pressing environmental challenges. Its legacy as the longest-operating Earth observation satellite underscores the importance of sustained observation efforts in monitoring and preserving the health of our planet.
+
+
+---
+
+# Reflection: Climate Change
+
+Landsat 5's superior level of resolution has greatly impacted climate change research by providing detailed, long-term data on Earth's surface dynamics. The satellite's Thematic Mapper (TM) sensor, with its high spatial resolution of 30 meters, enabled scientists to detect and monitor subtle changes in land cover, vegetation health, and land surface temperature.
+
+By analyzing Landsat 5 imagery, researchers have been able to assess the impacts of climate change on various ecosystems, including forests, wetlands, and agricultural lands. They have observed changes such as shifts in vegetation patterns, alterations in land use, and changes in snow cover extent, all of which are key indicators of climate change effects.
+
+Moreover, Landsat 5's extensive data record spanning nearly three decades has facilitated long-term studies of climate change trends. By comparing imagery from different time periods, scientists can quantify changes in land cover, monitor the rate of deforestation, and assess the vulnerability of ecosystems to climate-related disturbances such as wildfires and droughts.
+
+Overall, Landsat 5's contribution to climate change work lies in its ability to provide high-resolution, long-term data that enhances our understanding of the Earth's changing climate and supports efforts to mitigate its impacts.
+
+
+---
+
+# References
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

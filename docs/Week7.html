@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Aaron Eunson">
-<meta name="dcterms.date" content="2025-11-01">
 
-<title>CASA0023_Workbook</title>
+<title>CASA0023_Workbook - 6&nbsp; Classification I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Week1.html" rel="next">
+<link href="./Week8.html" rel="next">
+<link href="./Week6.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week7.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -138,20 +137,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Intro to Google Earth Engine</span></span></a>
+  <a href="./Week7.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Intro to Google Earth Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Intro to Google Earth Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -170,7 +169,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#urban-expansion-and-air-pollution" id="toc-urban-expansion-and-air-pollution" class="nav-link" data-scroll-target="#urban-expansion-and-air-pollution"><span class="header-section-number">6.1.1</span> Urban Expansion and Air Pollution</a></li>
+  <li><a href="#urban-green-spaces" id="toc-urban-green-spaces" class="nav-link" data-scroll-target="#urban-green-spaces"><span class="header-section-number">6.1.2</span> Urban Green Spaces</a></li>
+  <li><a href="#monitoring-forests-and-illegal-logging" id="toc-monitoring-forests-and-illegal-logging" class="nav-link" data-scroll-target="#monitoring-forests-and-illegal-logging"><span class="header-section-number">6.1.3</span> Monitoring Forests and Illegal Logging</a></li>
+  <li><a href="#machine-learning-and-classification-techniques" id="toc-machine-learning-and-classification-techniques" class="nav-link" data-scroll-target="#machine-learning-and-classification-techniques"><span class="header-section-number">6.1.4</span> Machine Learning and Classification Techniques</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</a></li>
+  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -179,26 +187,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CASA0023_Workbook</h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Aaron Eunson </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 1, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -206,9 +202,40 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1>
-<p>Intro content…</p>
+<section id="summary" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<p>This week has focussed on the application and classification of remotely sensed data, specifically looking into urban expansion, air pollution, land use and land cover (LULC) changes, urban green spaces, forest monitoring, and fire detection.</p>
+<p>It incorporates the use of various sensors like Landsat, Sentinel-3, and Sentinel-5, along with different methodologies including regression analysis, hex grids (honeycombing), and statistical comparisons.</p>
+<section id="urban-expansion-and-air-pollution" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="urban-expansion-and-air-pollution"><span class="header-section-number">6.1.1</span> Urban Expansion and Air Pollution</h3>
+<p>The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis. A case study highlights the LULC distribution’s significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.</p>
+</section>
+<section id="urban-green-spaces" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="urban-green-spaces"><span class="header-section-number">6.1.2</span> Urban Green Spaces</h3>
+<p>Different techniques and sensors are used to study urban green spaces, indicating a mix of methodologies like hybrid methods, object-based image analysis, and various mapping purposes. The importance of accurate mapping and classification of urban green areas is emphasized through inventory and assessment, ecosystem services, and species mapping.</p>
+</section>
+<section id="monitoring-forests-and-illegal-logging" class="level3" data-number="6.1.3">
+<h3 data-number="6.1.3" class="anchored" data-anchor-id="monitoring-forests-and-illegal-logging"><span class="header-section-number">6.1.3</span> Monitoring Forests and Illegal Logging</h3>
+<p>Challenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas. The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.</p>
+</section>
+<section id="machine-learning-and-classification-techniques" class="level3" data-number="6.1.4">
+<h3 data-number="6.1.4" class="anchored" data-anchor-id="machine-learning-and-classification-techniques"><span class="header-section-number">6.1.4</span> Machine Learning and Classification Techniques</h3>
+<p>An exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis. Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets. Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.</p>
+</section>
+<section id="key-takeaways" class="level3" data-number="6.1.5">
+<h3 data-number="6.1.5" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</h3>
+<ul>
+<li><p>The notes underscore the critical role of remote sensing and classification techniques in understanding and monitoring environmental changes.</p></li>
+<li><p>Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.</p></li>
+<li><p>The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.</p></li>
+</ul>
+</section>
+</section>
+<section id="application" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+</section>
+<section id="reflection" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
 
 
 </section>
@@ -449,10 +476,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Week6.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Intro to Google Earth Engine</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Week1.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 - Getting Started With Remote Sensing</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Week8.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

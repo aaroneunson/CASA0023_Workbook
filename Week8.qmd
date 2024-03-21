@@ -1,0 +1,57 @@
+# Classification II
+
+## Summary
+
+### Landcover Classification (Continued)
+
+[**Pre-classified Data Sources:**]{.underline}
+
+-   GlobeLand30 provides 30m resolution data for 2000, 2010, and 2020.
+
+-   ESA's Climate Change Initiative offers annual global land cover at 300m resolution from 1992-2015.
+
+-   Dynamic World offers near real-time 10m resolution data.
+
+-   Other sources include MODIS and Google's building data.
+
+[**Dynamic World:**]{.underline}
+
+-   Utilizes a semi-supervised approach with the world divided into three regions and 14 biomes.
+
+-   Stratified samples are based on NASA's MCD12Q1 land cover data for 2017 among other sources.
+
+-   Labeling involves both expert and non-expert groups, with a focus on achieving a balance in confidence levels across different classifications.
+
+### Accuracy
+
+[**Object-Based Image Analysis (OBIA):**]{.underline}
+
+-   Focuses on representing ground objects as shapes (superpixels) based on their homogeneity or heterogeneity.
+
+-   The SLIC algorithm is a common method for superpixel generation, balancing between physical distance and color similarity.
+
+[**Sub-Pixel Analysis:**]{.underline}
+
+-   Addresses the issue of pixels composed of multiple land cover types by determining the proportion of each land cover within a pixel.
+
+[**Accuracy Assessment:**]{.underline}
+
+-   Involves assigning an accuracy value to the output of remote sensing analysis, focusing on Producer's Accuracy, User's Accuracy, and Overall Accuracy.
+
+-   The Kappa Coefficient and F1 Score are among the metrics used to evaluate accuracy, with considerations for the balance between recall and precision.
+
+-   The Receiver Operating Characteristic (ROC) Curve and Area Under the ROC Curve (AUC) are used to assess the performance of binary classifiers.
+
+[**Spatial Considerations in Accuracy Assessment:**]{.underline}
+
+-   Spatial cross-validation and the consideration of spatial autocorrelation are highlighted as important factors in ensuring the reliability of classification models.
+
+-   The need for spatially aware methods like spatial leave-one-out cross-validation (SLOO CV) and k-fold cross-validation with spatial partitioning is emphasized.
+
+### Conclusion
+
+The lecture covers advanced techniques in landcover classification, including the use of pre-classified datasets, the application of object-based image analysis (OBIA), and sub-pixel analysis for more accurate representation of land cover. Accuracy assessment methods, including traditional metrics and spatial considerations, are discussed to ensure the reliability of classification models. The importance of spatial cross-validation and addressing spatial autocorrelation in classification accuracy assessment is underscored, highlighting the complexity of remote sensing data analysis and the need for meticulous methodology.
+
+## Application
+
+## Reflection

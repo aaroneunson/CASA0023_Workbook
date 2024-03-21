@@ -1,4 +1,6 @@
-# Week 2 - Portfolio
+# Using Xaringnan
+
+## Landsat 5 Profile
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(

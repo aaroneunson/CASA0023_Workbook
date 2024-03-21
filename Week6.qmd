@@ -1,3 +1,47 @@
-# Week 6 - Google Earth Engine I
+# Intro to Google Earth Engine
 
-Week 6 content....
+## Summary
+
+### The Setup of GEE
+
+Google Earth Engine (GEE) is a geospatial processing service that allows for analysis at a large scale, leveraging massive datasets for planetary-scale analysis quickly. It operates by storing data on servers and executing user-written code on this data.
+
+[**GEE Terminology:**]{.underline}
+
+-   **Image:** Represents raster data and contains bands.
+
+-   **Feature:** Represents vector data and contains geometry and attributes.
+
+-   **ImageCollection:** A stack of images.
+
+-   **FeatureCollection:** A collection of multiple polygons or vector data.
+
+GEE uses JavaScript for coding, introducing specific syntax for variables and objects.
+
+**Client vs. Server Side:** Code runs either in the browser (client-side) or on the server where data is stored. Objects prefixed with ee are server-side and considered "proxy objects."
+
+**Scale and Projections:**
+
+Scale refers to the resolution of images and is determined by the output in GEE, with automatic resampling as needed.
+
+Projections are managed automatically by GEE, typically converting data into the Mercator projection for display.
+
+### GEE in Action
+
+**Building Blocks of GEE:** Objects can be vectors, rasters, features, strings, or numbers, each belonging to a specific class with unique GEE functions.
+
+**Image Collections:** These are managed by filtering based on dates and regions to handle vast amounts of raster data.
+
+**Geometries and Features:** Geometries are points, lines, or polygons without attributes, whereas features include attributes.
+
+**Common GEE Processes:** Include geometry operations, joins, zonal statistics, filtering, and various machine learning methods.
+
+**Reducing Images:** This involves summarizing image collections to specific values per pixel or region, such as calculating median values or average reflectance within a study area.
+
+**Regression Analysis:** GEE supports linear regression over time to analyze changes in pixel values, utilizing a least squares approach and potentially multiple dependent variables.
+
+**Joins:** Similar to database joins, allowing for the combination of image or feature collections based on specific criteria.
+
+## Application
+
+## Reflection

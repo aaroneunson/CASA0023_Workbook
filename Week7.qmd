@@ -1,0 +1,37 @@
+# Classification I
+
+## Summary
+
+This week has focussed on the application and classification of remotely sensed data, specifically looking into urban expansion, air pollution, land use and land cover (LULC) changes, urban green spaces, forest monitoring, and fire detection.
+
+It incorporates the use of various sensors like Landsat, Sentinel-3, and Sentinel-5, along with different methodologies including regression analysis, hex grids (honeycombing), and statistical comparisons.
+
+### Urban Expansion and Air Pollution 
+The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis.
+A case study highlights the LULC distribution's significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.
+
+### Urban Green Spaces
+Different techniques and sensors are used to study urban green spaces, indicating a mix of methodologies like hybrid methods, object-based image analysis, and various mapping purposes.
+The importance of accurate mapping and classification of urban green areas is emphasized through inventory and assessment, ecosystem services, and species mapping.
+
+
+### Monitoring Forests and Illegal Logging
+Challenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas.
+The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.
+
+### Machine Learning and Classification Techniques
+An exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis.
+Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets.
+Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.
+
+### Key Takeaways
+
+- The notes underscore the critical role of remote sensing and classification techniques in understanding and monitoring environmental changes.
+
+- Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.
+
+- The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.
+
+## Application
+
+## Reflection

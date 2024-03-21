@@ -1,3 +1,42 @@
 # Week 1 - Getting Started With Remote Sensing
 
-trying to fix issues
+## Summary
+
+Remote sensing is defined by [NASA](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) (quite an expert in this field) as:
+
+> "the acquiring information from a distance"
+
+### Active vs. Passive Sensors
+
+This is done using sensors mounted on various platforms such as satellites, planes, drones, phones, or ground/sea devices. There are two types of sensors: active and passive.
+
+**Passive Sensors:** These utilise available energy to detect reflected energy from the sun. Examples include the human eye, cameras, and satellite sensors.\
+**Active Sensors:** Active sensors have their own energy source for illumination. They emit electromagnetic waves and then detect the energy reflected back. Examples include radar, x-ray, and LiDAR.
+
+### Electromagnetic Waves: A Physics Recap
+
+Electromagnetic radiation (EMR) propagates as waves and consists of electric and magnetic fields. The properties of EMR include wavelength (λ), velocity of light (c), and frequency (v), wherein the wavelength can be calculated with the following equation.
+
+$λ = \frac{c}{v}$
+
+EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles. Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.
+
+### Resolution
+
+Remote sensing systems have four main types of resolution:
+
+-   **Spatial:** Refers to the size of the raster grid per pixel, typically ranging from centimeters to kilometers.
+
+-   **Spectral:** Indicates the number of bands in which data is recorded across the electromagnetic spectrum. Different wavelengths reveal unique spectral signatures, but atmospheric conditions can limit observation.
+
+-   **Temporal:** Describes how often a sensor revisits an area. This determines pixel size and is crucial for monitoring changes over time.
+
+-   **Radiometric:** Identifies the range of values a sensor can detect, influencing its sensitivity to small differences in energy.
+
+## Application
+
+### Landsat (USGS)
+
+### Sentinel (Copernicus)
+
+## Reflection

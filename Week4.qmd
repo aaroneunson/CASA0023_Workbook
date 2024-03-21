@@ -1,5 +1,70 @@
-# Week 4 - Policy
+# Policy
 
-Week 4 content...
+:::
 
-Need to decide on a policy!!
+## Summary: summary of the policy and city you have selected.
+
+### Flood Risk in Jakarta, Indonesia
+
+Jakarta faces a significant risk of flooding due to a combination of geographical, environmental, and human factors:  
+
+1. Geographical Location: Jakarta is situated on the northwest coast of Java, at the mouth of the Ciliwung River on Jakarta Bay, which leads to the Java Sea. This coastal and low-lying geography makes it inherently vulnerable to flooding from the sea, especially during high tide events.  
+
+2. Land Subsidence: Excessive groundwater extraction has caused Jakarta to sink at an alarming rate, with some areas experiencing subsidence rates of more than 10 cm per year. This subsidence exacerbates the risk of flooding, as the city becomes increasingly lower than sea level.  
+
+3. Urbanization and Loss of Green Spaces: Rapid urban development has led to the loss of green spaces and water-absorbent areas, increasing runoff and reducing the natural absorption of rainwater. This situation is worsened by the fact that many developments occur without proper consideration for their environmental impact, contributing to the city's vulnerability to floods.  
+
+4. Climate Change: The effects of climate change, including rising sea levels and more intense rainfall events, heighten the risk of both coastal and pluvial flooding in Jakarta.  
+
+5. Inadequate Infrastructure: Jakarta's drainage and flood management infrastructure are often inadequate to handle the volume of water from heavy rains and high tides, partly due to the rapid pace of urban development and challenges in governance and maintenance.  
+
+6. River Overflow: The city is crossed by 13 rivers, and the overflow from these rivers during heavy rains is a significant cause of flooding in many parts of Jakarta.  
+
+These factors are interlinked, creating a complex challenge for flood risk management in Jakarta. Addressing these issues requires a multifaceted approach that includes improving infrastructure, regulating groundwater extraction, enhancing urban planning, and mitigating the effects of climate change.
+
+https://eastasiaforum.org/2021/07/13/better-flood-management-can-save-jakarta/
+https://www.mdpi.com/2071-1050/10/8/2934
+
+### Jakarta's Current Strategy
+
+Jakarta's strategy for managing its significant flood risk has evolved to include both infrastructural developments and nature-based solutions (NbS), addressing the city's unique challenges such as extreme urbanization, land subsidence, and the impacts of climate change.
+
+The **Jakarta Coastal Defense Strategy (JCDS)** and the subsequent **National Capital Integrated Coastal Development Masterplan (NCICD)**, colloquially known as the "Giant Sea Wall" project, stand out as major infrastructural components of Jakarta's flood management efforts. Initiated with Dutch collaboration, these projects aim to protect the city from sea-level rise and coastal flooding by constructing massive sea walls and creating retention areas to manage excess water. This strategy is being complemented by efforts to regulate river flows and expand flood reservoirs, as well as the clearing of waterways to restore their capacity.
+
+https://www.mdpi.com/2071-1050/10/8/2934
+https://floodlist.com/asia/plans-reduce-jakarta-flooding
+
+In addition to these heavy engineering solutions, Jakarta is incorporating NbS into its flood management strategy. These solutions leverage natural processes to mitigate flood risks, such as enhancing green open spaces that can absorb rainwater, implementing bioswales and permeable pavements to manage runoff, and creating urban green infrastructures like green roofs and rain gardens. The NbS approach not only addresses flooding but also tackles other urban challenges like heat islands and water pollution, making it a multifaceted solution to urban environmental issues.
+
+https://wri-indonesia.org/en/insights/reasons-jakartas-frequent-flooding-and-how-nature-based-solutions-nbs-can-help-reduce-risk
+
+Despite the ambitious plans and potential benefits of these strategies, Jakarta faces challenges such as budgetary constraints, poor maintenance of existing infrastructure, and the need for significant resettlement to accommodate new projects. Moreover, the success of these initiatives requires overcoming bureaucratic and corruption-related hurdles that have historically impeded large-scale urban projects in Indonesia.
+
+https://floodlist.com/asia/plans-reduce-jakarta-flooding
+
+Overall, Jakarta's approach to flood management is a blend of modern engineering and ecological restoration, aiming to safeguard the city against future flooding while also addressing broader environmental and urban resilience goals.
+
+:::
+
+## Application: how the remotely sensed data you sourced could be used to assist with contributing to the policy goal. How could the data be applied to solve the policy challenge.
+
+- **Flood Mapping and Monitoring:** SAR data allows for the real-time mapping of flood extents, even under cloud cover, which is crucial for timely evacuation and response.
+- **Risk Assessment:** Combining SAR data with DEMs helps identify flood-prone areas, critical for planning and implementing flood defenses.
+- **Infrastructure Planning:** Insights from remotely sensed data support the design and placement of flood mitigation infrastructure, like dams and improved drainage systems.
+- **Disaster Preparedness and Response:** The data enhances the efficiency of disaster response efforts by identifying affected areas and prioritizing rescue and relief operations.
+
+:::
+
+## Reflection: what you have learnt in relation to the policy, city and the application of the data.
+
+**Link to Global Goals**  
+Jakarta's efforts to manage flooding through remotely sensed data contribute to the Sustainable Development Goals (SDGs), particularly:
+
+- **SDG 11 (Sustainable Cities and Communities):** By enhancing urban resilience against flooding.
+- **SDG 13 (Climate Action):** Contributing to disaster risk reduction in the face of climate change.
+
+**Advancements Over Current Approaches**  
+The use of remotely sensed data in Jakarta represents an advancement by providing comprehensive and real-time flood monitoring capabilities, supporting more informed and timely decision-making in flood management and disaster response, essential for a megacity prone to frequent and sudden flooding events.
+
+
+https://earthobservatory.nasa.gov/images/148303/as-jakarta-grows-so-do-the-water-issues

@@ -16,7 +16,7 @@
   {
     "objectID": "Week3.html",
     "href": "Week3.html",
-    "title": "3  Week 3 - Corrections",
+    "title": "3  Corrections and Enahancements",
     "section": "",
     "text": "Week 3 content …\nOutputs:\n\n\n\nRatio Enhancement - NVDI Greater Than 0.2; Merged Tile\n\n\n\n\n\nTexture Enhancement - Sample Tile\n\n\n\n\n\nTexture Enhancement - Merged Area"
   },
@@ -37,8 +37,169 @@
   {
     "objectID": "Week2.html",
     "href": "Week2.html",
-    "title": "2  Week 2 - Portfolio",
+    "title": "2  Using Xaringnan",
     "section": "",
-    "text": "Here is a presentation about the Landsat 5 satellite!"
+    "text": "##Landsat 5 Profile\n\n\n\n\n\n\n\n\n\nHere is a presentation about the Landsat 5 satellite!"
+  },
+  {
+    "objectID": "Week4.html#summary-summary-of-the-policy-and-city-you-have-selected.",
+    "href": "Week4.html#summary-summary-of-the-policy-and-city-you-have-selected.",
+    "title": "4  Policy",
+    "section": "4.1 Summary: summary of the policy and city you have selected.",
+    "text": "4.1 Summary: summary of the policy and city you have selected.\n\n4.1.1 Flood Risk in Jakarta, Indonesia\nJakarta faces a significant risk of flooding due to a combination of geographical, environmental, and human factors:\n\nGeographical Location: Jakarta is situated on the northwest coast of Java, at the mouth of the Ciliwung River on Jakarta Bay, which leads to the Java Sea. This coastal and low-lying geography makes it inherently vulnerable to flooding from the sea, especially during high tide events.\nLand Subsidence: Excessive groundwater extraction has caused Jakarta to sink at an alarming rate, with some areas experiencing subsidence rates of more than 10 cm per year. This subsidence exacerbates the risk of flooding, as the city becomes increasingly lower than sea level.\nUrbanization and Loss of Green Spaces: Rapid urban development has led to the loss of green spaces and water-absorbent areas, increasing runoff and reducing the natural absorption of rainwater. This situation is worsened by the fact that many developments occur without proper consideration for their environmental impact, contributing to the city’s vulnerability to floods.\nClimate Change: The effects of climate change, including rising sea levels and more intense rainfall events, heighten the risk of both coastal and pluvial flooding in Jakarta.\nInadequate Infrastructure: Jakarta’s drainage and flood management infrastructure are often inadequate to handle the volume of water from heavy rains and high tides, partly due to the rapid pace of urban development and challenges in governance and maintenance.\nRiver Overflow: The city is crossed by 13 rivers, and the overflow from these rivers during heavy rains is a significant cause of flooding in many parts of Jakarta.\n\nThese factors are interlinked, creating a complex challenge for flood risk management in Jakarta. Addressing these issues requires a multifaceted approach that includes improving infrastructure, regulating groundwater extraction, enhancing urban planning, and mitigating the effects of climate change.\nhttps://eastasiaforum.org/2021/07/13/better-flood-management-can-save-jakarta/ https://www.mdpi.com/2071-1050/10/8/2934\n\n\n4.1.2 Jakarta’s Current Strategy\nJakarta’s strategy for managing its significant flood risk has evolved to include both infrastructural developments and nature-based solutions (NbS), addressing the city’s unique challenges such as extreme urbanization, land subsidence, and the impacts of climate change.\nThe Jakarta Coastal Defense Strategy (JCDS) and the subsequent National Capital Integrated Coastal Development Masterplan (NCICD), colloquially known as the “Giant Sea Wall” project, stand out as major infrastructural components of Jakarta’s flood management efforts. Initiated with Dutch collaboration, these projects aim to protect the city from sea-level rise and coastal flooding by constructing massive sea walls and creating retention areas to manage excess water. This strategy is being complemented by efforts to regulate river flows and expand flood reservoirs, as well as the clearing of waterways to restore their capacity.\nhttps://www.mdpi.com/2071-1050/10/8/2934 https://floodlist.com/asia/plans-reduce-jakarta-flooding\nIn addition to these heavy engineering solutions, Jakarta is incorporating NbS into its flood management strategy. These solutions leverage natural processes to mitigate flood risks, such as enhancing green open spaces that can absorb rainwater, implementing bioswales and permeable pavements to manage runoff, and creating urban green infrastructures like green roofs and rain gardens. The NbS approach not only addresses flooding but also tackles other urban challenges like heat islands and water pollution, making it a multifaceted solution to urban environmental issues.\nhttps://wri-indonesia.org/en/insights/reasons-jakartas-frequent-flooding-and-how-nature-based-solutions-nbs-can-help-reduce-risk\nDespite the ambitious plans and potential benefits of these strategies, Jakarta faces challenges such as budgetary constraints, poor maintenance of existing infrastructure, and the need for significant resettlement to accommodate new projects. Moreover, the success of these initiatives requires overcoming bureaucratic and corruption-related hurdles that have historically impeded large-scale urban projects in Indonesia.\nhttps://floodlist.com/asia/plans-reduce-jakarta-flooding\nOverall, Jakarta’s approach to flood management is a blend of modern engineering and ecological restoration, aiming to safeguard the city against future flooding while also addressing broader environmental and urban resilience goals.\n:::"
+  },
+  {
+    "objectID": "Week4.html#application-how-the-remotely-sensed-data-you-sourced-could-be-used-to-assist-with-contributing-to-the-policy-goal.-how-could-the-data-be-applied-to-solve-the-policy-challenge.",
+    "href": "Week4.html#application-how-the-remotely-sensed-data-you-sourced-could-be-used-to-assist-with-contributing-to-the-policy-goal.-how-could-the-data-be-applied-to-solve-the-policy-challenge.",
+    "title": "4  Policy",
+    "section": "4.2 Application: how the remotely sensed data you sourced could be used to assist with contributing to the policy goal. How could the data be applied to solve the policy challenge.",
+    "text": "4.2 Application: how the remotely sensed data you sourced could be used to assist with contributing to the policy goal. How could the data be applied to solve the policy challenge.\n\nFlood Mapping and Monitoring: SAR data allows for the real-time mapping of flood extents, even under cloud cover, which is crucial for timely evacuation and response.\nRisk Assessment: Combining SAR data with DEMs helps identify flood-prone areas, critical for planning and implementing flood defenses.\nInfrastructure Planning: Insights from remotely sensed data support the design and placement of flood mitigation infrastructure, like dams and improved drainage systems.\nDisaster Preparedness and Response: The data enhances the efficiency of disaster response efforts by identifying affected areas and prioritizing rescue and relief operations.\n\n:::"
+  },
+  {
+    "objectID": "Week4.html#reflection-what-you-have-learnt-in-relation-to-the-policy-city-and-the-application-of-the-data.",
+    "href": "Week4.html#reflection-what-you-have-learnt-in-relation-to-the-policy-city-and-the-application-of-the-data.",
+    "title": "4  Policy",
+    "section": "4.3 Reflection: what you have learnt in relation to the policy, city and the application of the data.",
+    "text": "4.3 Reflection: what you have learnt in relation to the policy, city and the application of the data.\nLink to Global Goals\nJakarta’s efforts to manage flooding through remotely sensed data contribute to the Sustainable Development Goals (SDGs), particularly:\n\nSDG 11 (Sustainable Cities and Communities): By enhancing urban resilience against flooding.\nSDG 13 (Climate Action): Contributing to disaster risk reduction in the face of climate change.\n\nAdvancements Over Current Approaches\nThe use of remotely sensed data in Jakarta represents an advancement by providing comprehensive and real-time flood monitoring capabilities, supporting more informed and timely decision-making in flood management and disaster response, essential for a megacity prone to frequent and sudden flooding events.\nhttps://earthobservatory.nasa.gov/images/148303/as-jakarta-grows-so-do-the-water-issues"
+  },
+  {
+    "objectID": "Week1.html#summary",
+    "href": "Week1.html#summary",
+    "title": "1  Week 1 - Getting Started With Remote Sensing",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\nRemote sensing is defined by NASA (quite an expert in this field) as:\n\n“the acquiring information from a distance”\n\n\n1.1.1 Active vs. Passive Sensors\nThis is done using sensors mounted on various platforms such as satellites, planes, drones, phones, or ground/sea devices. There are two types of sensors: active and passive.\nPassive Sensors: These utilise available energy to detect reflected energy from the sun. Examples include the human eye, cameras, and satellite sensors.\nActive Sensors: Active sensors have their own energy source for illumination. They emit electromagnetic waves and then detect the energy reflected back. Examples include radar, x-ray, and LiDAR.\n\n\n1.1.2 Electromagnetic Waves: A Physics Recap\nElectromagnetic radiation (EMR) propagates as waves and consists of electric and magnetic fields. The properties of EMR include wavelength (λ), velocity of light (c), and frequency (v), wherein the wavelength can be calculated with the following equation.\n\\(λ = \\frac{c}{v}\\)\nEMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles. Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.\n\n\n1.1.3 Resolution\nRemote sensing systems have four main types of resolution:\n\nSpatial: Refers to the size of the raster grid per pixel, typically ranging from centimeters to kilometers.\nSpectral: Indicates the number of bands in which data is recorded across the electromagnetic spectrum. Different wavelengths reveal unique spectral signatures, but atmospheric conditions can limit observation.\nTemporal: Describes how often a sensor revisits an area. This determines pixel size and is crucial for monitoring changes over time.\nRadiometric: Identifies the range of values a sensor can detect, influencing its sensitivity to small differences in energy."
+  },
+  {
+    "objectID": "Week1.html#application",
+    "href": "Week1.html#application",
+    "title": "1  Week 1 - Getting Started With Remote Sensing",
+    "section": "1.2 Application",
+    "text": "1.2 Application\n\n1.2.1 Landsat (USGS)\n\n\n1.2.2 Sentinel (Copernicus)"
+  },
+  {
+    "objectID": "Week1.html#relfection",
+    "href": "Week1.html#relfection",
+    "title": "1  Week 1 - Getting Started With Remote Sensing",
+    "section": "1.3 Relfection",
+    "text": "1.3 Relfection"
+  },
+  {
+    "objectID": "Week2.html#landsat-5-profile",
+    "href": "Week2.html#landsat-5-profile",
+    "title": "2  Using Xaringnan",
+    "section": "2.1 Landsat 5 Profile",
+    "text": "2.1 Landsat 5 Profile\n\n\n\n\n\n\n\n\n\nHere is a presentation about the Landsat 5 satellite!"
+  },
+  {
+    "objectID": "Week3.html#summary",
+    "href": "Week3.html#summary",
+    "title": "3  Corrections and Enahancements",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary\n\n3.1.1 Pre-processing\nPre-processing Requirements: Remote sensing imagery may have errors due to factors like sensor issues, atmospheric conditions (such as clouds, rain, ash, etc), terrain, among others. These can be adjusted for.\nScan Lines Issue: An example of a sensor issue is the failure of the scan line corrector on Landsat 7, leading to gaps in imagery that necessitated development of gap-filling methods.\nRegression: This concept is important for understanding how to model and predict values in remote sensing data. \\(yi=β0+β1xi+ϵi\\)\n\n\n3.1.2 Corrections\nGeometric Correction: Corrects for image distortions due to view angle, topography, wind, and Earth’s rotation using Ground Control Points (GCPs) and geometric transformation coefficients.\nAtmospheric Correction: Essential for removing atmospheric effects that can alter image data, with methods ranging from simple dark object subtraction to complex radiative transfer models.\nOrthorectification Correction: Refines georectification by removing distortions to ensure each pixel is represented as if viewed directly from above.\nRadiometric Calibration: Transforms sensor-captured image brightness into meaningful spectral radiance measurements.\n\n\n3.1.3 Joining Data Sets\nJoining Data Sets (Mosaicking): Techniques to merge multiple images seamlessly, often requiring adjustments to ensure consistency across the combined imagery.\n\n\n3.1.4 Image Enhancement\nBasic Enhancements: improves the visual quality and interpretability of imagery\n\nContrast enhancement\nBand ratio Examples include NDVI (Normalised Difference Vegetation Index), NDWI (Normalised Difference Water Index), SAVI (Soil-Adjusted Vegetation Index).\n\n\\[NDVI = \\frac{NIR-Red}{NIR+Red}\\]\n\\[NDWI = \\frac{NIR-SWIR}{NIR+SWIR}\\]\n\\[SAVI = \\frac{NIR-Red}{NIR+Red+L}×(1+L)\\]\n\n\\(L\\) = value is adjusted based on the amount of vegetation; \\(L\\)=0.5 is the default value and works well in most situations. With \\(L\\)=0, NDVI=SAVI.\n\n\nFiltering\nEdge enhancement\n\nAdvanced Enhancements: further refines and enhances imagery for specific applications.\n\nPrincipal Component Analysis (PCA)\nTexture analysis\nImage fusion: (e.g. pan sharpening)\n\nKey Considerations The process involves correcting imagery for various errors before using it for analysis or interpretation.\nEnhancements and corrections aim to improve image quality and consistency, facilitating better comparison and analysis across different images or time periods.\nThe application of these processes needs to be tailored to the specific needs and contexts of the imagery use, particularly in complex environments like urban areas.\nAdvanced techniques can add value to the imagery but also introduce complexity. It’s essential to weigh the benefits against the potential complications or misinterpretations that may arise."
+  },
+  {
+    "objectID": "Week3.html#application",
+    "href": "Week3.html#application",
+    "title": "3  Corrections and Enahancements",
+    "section": "3.2 Application",
+    "text": "3.2 Application\n\n\n\nRatio Enhancement - NVDI Greater Than 0.2; Merged Tile\n\n\n\n\n\nTexture Enhancement - Sample Area\n\n\n\n\n\nPCA Enhancement - Sample Area"
+  },
+  {
+    "objectID": "Week3.html#reflection",
+    "href": "Week3.html#reflection",
+    "title": "3  Corrections and Enahancements",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection"
+  },
+  {
+    "objectID": "Week6.html#summary",
+    "href": "Week6.html#summary",
+    "title": "5  Intro to Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\n\n5.1.1 The Setup of GEE\nGoogle Earth Engine (GEE) is a geospatial processing service that allows for analysis at a large scale, leveraging massive datasets for planetary-scale analysis quickly. It operates by storing data on servers and executing user-written code on this data.\nGEE Terminology:\n\nImage: Represents raster data and contains bands.\nFeature: Represents vector data and contains geometry and attributes.\nImageCollection: A stack of images.\nFeatureCollection: A collection of multiple polygons or vector data.\n\nGEE uses JavaScript for coding, introducing specific syntax for variables and objects.\nClient vs. Server Side: Code runs either in the browser (client-side) or on the server where data is stored. Objects prefixed with ee are server-side and considered “proxy objects.”\nScale and Projections:\nScale refers to the resolution of images and is determined by the output in GEE, with automatic resampling as needed.\nProjections are managed automatically by GEE, typically converting data into the Mercator projection for display.\n\n\n5.1.2 GEE in Action\nBuilding Blocks of GEE: Objects can be vectors, rasters, features, strings, or numbers, each belonging to a specific class with unique GEE functions.\nImage Collections: These are managed by filtering based on dates and regions to handle vast amounts of raster data.\nGeometries and Features: Geometries are points, lines, or polygons without attributes, whereas features include attributes.\nCommon GEE Processes: Include geometry operations, joins, zonal statistics, filtering, and various machine learning methods.\nReducing Images: This involves summarizing image collections to specific values per pixel or region, such as calculating median values or average reflectance within a study area.\nRegression Analysis: GEE supports linear regression over time to analyze changes in pixel values, utilizing a least squares approach and potentially multiple dependent variables.\nJoins: Similar to database joins, allowing for the combination of image or feature collections based on specific criteria."
+  },
+  {
+    "objectID": "Week6.html#application",
+    "href": "Week6.html#application",
+    "title": "5  Intro to Google Earth Engine",
+    "section": "5.2 Application",
+    "text": "5.2 Application"
+  },
+  {
+    "objectID": "Week6.html#reflection",
+    "href": "Week6.html#reflection",
+    "title": "5  Intro to Google Earth Engine",
+    "section": "5.3 Reflection",
+    "text": "5.3 Reflection"
+  },
+  {
+    "objectID": "Week7.html#summary",
+    "href": "Week7.html#summary",
+    "title": "6  Classification I",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\nThis week has focussed on the application and classification of remotely sensed data, specifically looking into urban expansion, air pollution, land use and land cover (LULC) changes, urban green spaces, forest monitoring, and fire detection.\nIt incorporates the use of various sensors like Landsat, Sentinel-3, and Sentinel-5, along with different methodologies including regression analysis, hex grids (honeycombing), and statistical comparisons.\n\n6.1.1 Urban Expansion and Air Pollution\nThe impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis. A case study highlights the LULC distribution’s significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.\n\n\n6.1.2 Urban Green Spaces\nDifferent techniques and sensors are used to study urban green spaces, indicating a mix of methodologies like hybrid methods, object-based image analysis, and various mapping purposes. The importance of accurate mapping and classification of urban green areas is emphasized through inventory and assessment, ecosystem services, and species mapping.\n\n\n6.1.3 Monitoring Forests and Illegal Logging\nChallenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas. The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.\n\n\n6.1.4 Machine Learning and Classification Techniques\nAn exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis. Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets. Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.\n\n\n6.1.5 Key Takeaways\n\nThe notes underscore the critical role of remote sensing and classification techniques in understanding and monitoring environmental changes.\nVarious sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.\nThe application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies."
+  },
+  {
+    "objectID": "Week7.html#application",
+    "href": "Week7.html#application",
+    "title": "6  Classification I",
+    "section": "6.2 Application",
+    "text": "6.2 Application"
+  },
+  {
+    "objectID": "Week7.html#reflection",
+    "href": "Week7.html#reflection",
+    "title": "6  Classification I",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection"
+  },
+  {
+    "objectID": "Week8.html#summary",
+    "href": "Week8.html#summary",
+    "title": "7  Classification II",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary"
+  },
+  {
+    "objectID": "Week8.html#application",
+    "href": "Week8.html#application",
+    "title": "7  Classification II",
+    "section": "7.2 Application",
+    "text": "7.2 Application"
+  },
+  {
+    "objectID": "Week8.html#reflection",
+    "href": "Week8.html#reflection",
+    "title": "7  Classification II",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection"
+  },
+  {
+    "objectID": "Week1.html#reflection",
+    "href": "Week1.html#reflection",
+    "title": "1  Week 1 - Getting Started With Remote Sensing",
+    "section": "1.3 Reflection",
+    "text": "1.3 Reflection"
+  },
+  {
+    "objectID": "Week9.html#summary",
+    "href": "Week9.html#summary",
+    "title": "8  SAR",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\n\n8.1.1 SAR Fundamentals\nSAR (Synthetic Aperture Radar):\nAn active sensor technology that emits electromagnetic signals to capture surface texture data, capable of seeing through weather and clouds. SAR sensors can be mounted on various platforms and utilize different wavelengths for diverse applications. It actively emits and then receives electromagnetic waves, distinguishing it from passive sensors that rely on available energy, such as the sun’s reflection.\nPolarization:\nRefers to the orientation of the electromagnetic wave’s plane, critical in determining how different surfaces interact with SAR signals. Polarizations include single (horizontal or vertical), dual, and various combinations (HH, VV, VH, HV), influencing how rough surfaces, vegetation, or man-made structures are detected.\nAmplitude and Phase:\nSAR signals contain amplitude (backscatter) information related to surface properties and phase data indicating the wave’s cycle position upon return. This information is crucial for understanding surface roughness, volume, and permittivity.\n\n\n8.1.2 Practical Change Detection with SAR\nInSAR and DInSAR:\nTechniques leveraging SAR images to detect surface topography and motion. Interferometry uses phase shifts to map ground movement, while Differential Interferometry (DInSAR) isolates movement by removing topographic effects.\nSAR Data Processing:\nInvolves transforming complex data (I and Q components) into a form suitable for analysis or visualization, presented in power, amplitude, or dB scale, each serving different purposes from statistical analysis to visual representation.\nChange Detection Methods:\nTraditional methods like image subtraction are less effective due to SAR statistics. Ratio and log ratio techniques, improved ratio methods, and statistical tests (e.g., t-tests) are employed to better handle SAR data’s unique properties.\nImage Fusion:\nCombines SAR with optical data to enhance analysis, utilizing techniques like Principal Component Analysis and Object-Based Image Analysis for more accurate change detection and classification.\nApplications and Challenges:\nSAR’s ability to penetrate clouds and capture data under any weather conditions makes it invaluable for monitoring changes in the Earth’s surface. However, interpreting SAR images, especially in urban areas, can be complex due to signal scattering phenomena like multiple bouncing and shadowing.\n\n\n8.1.3 Key Takeaways\n\nSAR technology offers a powerful tool for Earth observation, capable of providing critical data on surface characteristics and changes over time, unaffected by weather conditions.\nIts applications range from environmental monitoring to urban planning, leveraging various data processing and change detection techniques to interpret the complex signals captured by SAR sensors.\nDespite its advantages, the effective use of SAR data requires careful consideration of sensor characteristics, data processing methods, and the specific goals of the analysis to overcome inherent challenges in interpretation and application."
+  },
+  {
+    "objectID": "Week9.html#application",
+    "href": "Week9.html#application",
+    "title": "8  SAR",
+    "section": "8.2 Application",
+    "text": "8.2 Application"
+  },
+  {
+    "objectID": "Week9.html#reflection",
+    "href": "Week9.html#reflection",
+    "title": "8  SAR",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection"
   }
 ]

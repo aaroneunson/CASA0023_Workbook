@@ -1,0 +1,51 @@
+# SAR
+
+## Summary
+
+### SAR Fundamentals
+
+[**SAR (Synthetic Aperture Radar):**]{.underline}
+
+An active sensor technology that emits electromagnetic signals to capture surface texture data, capable of seeing through weather and clouds. SAR sensors can be mounted on various platforms and utilize different wavelengths for diverse applications. It actively emits and then receives electromagnetic waves, distinguishing it from passive sensors that rely on available energy, such as the sun's reflection.
+
+[**Polarization:**]{.underline}
+
+Refers to the orientation of the electromagnetic wave's plane, critical in determining how different surfaces interact with SAR signals. Polarizations include single (horizontal or vertical), dual, and various combinations (HH, VV, VH, HV), influencing how rough surfaces, vegetation, or man-made structures are detected.
+
+[**Amplitude and Phase:**]{.underline}
+
+SAR signals contain amplitude (backscatter) information related to surface properties and phase data indicating the wave's cycle position upon return. This information is crucial for understanding surface roughness, volume, and permittivity.
+
+### Practical Change Detection with SAR
+
+[**InSAR and DInSAR:**]{.underline}
+
+Techniques leveraging SAR images to detect surface topography and motion. Interferometry uses phase shifts to map ground movement, while Differential Interferometry (DInSAR) isolates movement by removing topographic effects.
+
+[**SAR Data Processing:**]{.underline}
+
+Involves transforming complex data (I and Q components) into a form suitable for analysis or visualization, presented in power, amplitude, or dB scale, each serving different purposes from statistical analysis to visual representation.
+
+[**Change Detection Methods:**]{.underline}
+
+Traditional methods like image subtraction are less effective due to SAR statistics. Ratio and log ratio techniques, improved ratio methods, and statistical tests (e.g., t-tests) are employed to better handle SAR data's unique properties.
+
+[**Image Fusion:**]{.underline}
+
+Combines SAR with optical data to enhance analysis, utilizing techniques like Principal Component Analysis and Object-Based Image Analysis for more accurate change detection and classification.
+
+[**Applications and Challenges:**]{.underline}
+
+SAR's ability to penetrate clouds and capture data under any weather conditions makes it invaluable for monitoring changes in the Earth's surface. However, interpreting SAR images, especially in urban areas, can be complex due to signal scattering phenomena like multiple bouncing and shadowing.
+
+### Key Takeaways
+
+-   SAR technology offers a powerful tool for Earth observation, capable of providing critical data on surface characteristics and changes over time, unaffected by weather conditions.
+
+-   Its applications range from environmental monitoring to urban planning, leveraging various data processing and change detection techniques to interpret the complex signals captured by SAR sensors.
+
+-   Despite its advantages, the effective use of SAR data requires careful consideration of sensor characteristics, data processing methods, and the specific goals of the analysis to overcome inherent challenges in interpretation and application.
+
+## Application
+
+## Reflection

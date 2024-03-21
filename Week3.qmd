@@ -1,12 +1,67 @@
-# Week 3 - Corrections
+# Corrections and Enahancements
 
-Week 3 content ...
+## Summary
 
-Outputs: 
+### Pre-processing
 
-![Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile](/Week3Content/week3_mergedtile_nvdimore0.2)
+**Pre-processing Requirements:** Remote sensing imagery may have errors due to factors like sensor issues, atmospheric conditions (such as clouds, rain, ash, etc), terrain, among others. These can be adjusted for.
 
-![Texture Enhancement - Sample Tile](/Week3Content/week3_samplearea_texturecorrection.)
+**Scan Lines Issue:** An example of a sensor issue is the failure of the scan line corrector on Landsat 7, leading to gaps in imagery that necessitated development of gap-filling methods.
 
-![Texture Enhancement - Merged Area](/Week3Content/week3_mergedtile_texturecorrection.)
+**Regression:** This concept is important for understanding how to model and predict values in remote sensing data. $yi=β0+β1xi+ϵi$
 
+### Corrections
+
+**Geometric Correction:** Corrects for image distortions due to view angle, topography, wind, and Earth's rotation using Ground Control Points (GCPs) and geometric transformation coefficients.
+
+**Atmospheric Correction:** Essential for removing atmospheric effects that can alter image data, with methods ranging from simple dark object subtraction to complex radiative transfer models.
+
+**Orthorectification Correction:** Refines georectification by removing distortions to ensure each pixel is represented as if viewed directly from above.
+
+**Radiometric Calibration:** Transforms sensor-captured image brightness into meaningful spectral radiance measurements.
+
+### Joining Data Sets
+
+**Joining Data Sets (Mosaicking):** Techniques to merge multiple images seamlessly, often requiring adjustments to ensure consistency across the combined imagery.
+
+### Image Enhancement
+
+**Basic Enhancements:** improves the visual quality and interpretability of imagery
+
+-   *Contrast enhancement*
+-   [*Band ratio*](https://medium.com/regen-network/remote-sensing-indices-389153e3d947) Examples include NDVI (Normalised Difference Vegetation Index), NDWI (Normalised Difference Water Index), SAVI (Soil-Adjusted Vegetation Index).
+
+$$NDVI = \frac{NIR-Red}{NIR+Red}$$
+
+$$NDWI = \frac{NIR-SWIR}{NIR+SWIR}$$
+
+$$SAVI = \frac{NIR-Red}{NIR+Red+L}×(1+L)$$
+
+> $L$ = value is adjusted based on the amount of vegetation; $L$=0.5 is the default value and works well in most situations. With $L$=0, NDVI=SAVI.
+
+-   *Filtering*
+-   *Edge enhancement*
+
+**Advanced Enhancements:** further refines and enhances imagery for specific applications.
+
+-   *Principal Component Analysis (PCA)*
+-   *Texture analysis*
+-   *Image fusion:* (e.g. pan sharpening)
+
+**Key Considerations** The process involves correcting imagery for various errors before using it for analysis or interpretation.
+
+Enhancements and corrections aim to improve image quality and consistency, facilitating better comparison and analysis across different images or time periods.
+
+The application of these processes needs to be tailored to the specific needs and contexts of the imagery use, particularly in complex environments like urban areas.
+
+Advanced techniques can add value to the imagery but also introduce complexity. It's essential to weigh the benefits against the potential complications or misinterpretations that may arise.
+
+## Application
+
+![Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile](/Week3Content/ndvi_greater_0.2_mergedtile.png)
+
+![Texture Enhancement - Sample Area](/Week3Content/texture_enhancement.png)
+
+![PCA Enhancement - Sample Area](/Week3Content/pca_enhancement.png)
+
+## Reflection
