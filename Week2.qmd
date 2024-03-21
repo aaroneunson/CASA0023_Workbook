@@ -1,7 +1,5 @@
 # Week 2 - Portfolio
 
-Week 2 content...
-
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
   url = "FirstPresentation_TEST/FirstPresentation_TEST.html",
@@ -9,4 +7,4 @@ xaringanExtra::embed_xaringan(
 
 ```
 
-> This is just an example presentation - mine will be added later :) 
+> Here is a presentation about the Landsat 5 satellite! 
