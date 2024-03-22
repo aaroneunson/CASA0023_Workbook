@@ -46,7 +46,7 @@ $$SAVI = \frac{NIR-Red}{NIR+Red+L}×(1+L)$$
 
 -   *Principal Component Analysis (PCA)*
 -   *Texture analysis*
--   *Image fusion:* (e.g. pan sharpening)
+-   *Image fusion* (e.g. pan sharpening)
 
 **Key Considerations** The process involves correcting imagery for various errors before using it for analysis or interpretation.
 
@@ -113,3 +113,11 @@ In the below I have downloaded two satellite image collections from [USGS](https
 > PCA transforms the original correlated variables into a new set of uncorrelated variables, called principal components (PCs), which are ordered so that the first few retain most of the variation present in the original dataset. Essentially it can be used to reduce the number of dimensions of a dataset. The first image is the one of most interest here - that new dimension effectively helps to explain most of the variance amongst other dimensions.
 
 ## Reflection
+
+After discussing with a few coursemates, many people seemed to struggle with the content of this week, however, I must say that I quite enjoyed it. The process of correcting an image feels somewhat linear and I regret not producing a flow chart to really demonstrate its relative simplicity. 
+
+As with the first week - it is quite fun and satisfying to take quite illegible images and turn it into something actionable and insightful. The sample area that I looked at this week (when I clipped my merged tile to a smaller bounding area) contains Calais, France and its surrounding landscape. It is evident from the analysis I have conducted that it is predominantly countryside uses - high NDVI values and an abundance of high values within the texture enhancement. However, the texture analysis also revealed an 'archipelago in the sea of green' of moderately textured areas. From looking at OS maps and through my own understanding I would assume that these represent very sparse human settlements (towns and villages as well as agricultural built-up uses). 
+
+Ratio seems like an exceptionally easy to use and understand concept in particular (unless I have completely understoon it!). There seem to be a vast array of indices (and their formulae) available and easily searchable online. It primarily a matter of taking the band values for a pixel (dependent on the index you are attempting to calculate) and applying the function to the image. 
+
+This is a highly relevant topic and something I will likely return to in my own time to play with. When it comes to the matter of professional use, however, it does slightly concern me. Whilst I feel I am able to draw basic insights from manipulated imagery, identifying more nuanced phenomena seems much harder. Although I am sure that this is mostly a matter of exposure and with enough use, I will grow familar with what to look out for, what is and isn't typical, etc. 

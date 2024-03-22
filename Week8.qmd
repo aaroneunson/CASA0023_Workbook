@@ -48,10 +48,6 @@
 
 -   The need for spatially aware methods like spatial leave-one-out cross-validation (SLOO CV) and k-fold cross-validation with spatial partitioning is emphasized.
 
-### Conclusion
-
-The lecture covers advanced techniques in landcover classification, including the use of pre-classified datasets, the application of object-based image analysis (OBIA), and sub-pixel analysis for more accurate representation of land cover. Accuracy assessment methods, including traditional metrics and spatial considerations, are discussed to ensure the reliability of classification models. The importance of spatial cross-validation and addressing spatial autocorrelation in classification accuracy assessment is underscored, highlighting the complexity of remote sensing data analysis and the need for meticulous methodology.
-
 ## Application
 
 ### A Deep Convolution Neural Network Method for Land Cover Mapping
@@ -69,3 +65,7 @@ This addresses a major bottleneck in applying machine learning to remote sensing
 The DCNN model demonstrated superior performance over traditional methods, achieving an overall accuracy of 82.0% and a kappa coefficient of 0.76. This improvement is attributed to the model's ability to incorporate spatial information from surrounding pixels (vital for addressing spatial autocorrelation which is inherent in spatial data), reducing misclassifications that often occur in pixel-based approaches. Typical pixel-based approaches might treat each pixel as independent, ignoring the potentially valuable context provided by adjacent pixels. The DCNN employed here is able to accurately distinguish between land uses (such as in areas where the boundaries between different land covers are more graduated or where classes have similar spectral signatures but are spatially distinct). The overall accuracy value and kappa coefficient highlight the significant improvements that can be attained through deep learning models when compared with other classification methods such as SVM and MLC.
 
 ## Reflection
+
+As discussed last week, ML takes quite a central themes of this week and indeed is a very big and exciting subject within classification. The case study of Qinhuangdao demonstrates the improvements that can be achieved when employing unsupervised techniques and when also accounting for inherent methodological issues. It is only semi-supervised though (rather than fully unsupervised), with it utilising an unsupervised method of classifying pixels, through existing datasets trained under supervision.
+
+Something that I have noticed though is that I see the lectures and the methods being taught within these (e.g. sub-pixel analysis or CNN). During these, the methods seems somewhat straightforward (although a constant theme is the complexity involved in many aspects of RS). But then when I research, it becomes clear that there is an extensive array of variations, interpretations and adaptations of the methods. Initially, this struck me as daunting - how could I ever learn all of these and make sense of them. But through reading some more, it is evident that there are general principles which are constantly regarded. For example, variations of a method may simply involve changing threshold levels or minor process tweaks. Instead it is actually exciting - that there is so much interest and such burgeoning adaptability, demonstrates the will that researchers posses to explore new possibilities and identify more accurate, precises and efficient methods. It demonstrates that the RS community still has much to discover, learn and discuss.

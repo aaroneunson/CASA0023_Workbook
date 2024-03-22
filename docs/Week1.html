@@ -179,8 +179,11 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">1.2</span> Application</a>
   <ul class="collapse">
-  <li><a href="#landsat-usgs" id="toc-landsat-usgs" class="nav-link" data-scroll-target="#landsat-usgs"><span class="header-section-number">1.2.1</span> Landsat (USGS)</a></li>
-  <li><a href="#sentinel-copernicus" id="toc-sentinel-copernicus" class="nav-link" data-scroll-target="#sentinel-copernicus"><span class="header-section-number">1.2.2</span> Sentinel (Copernicus)</a></li>
+  <li><a href="#satellite-sensors-and-spectral-bands" id="toc-satellite-sensors-and-spectral-bands" class="nav-link" data-scroll-target="#satellite-sensors-and-spectral-bands"><span class="header-section-number">1.2.1</span> <strong>Satellite Sensors and Spectral Bands</strong></a></li>
+  <li><a href="#environmental-monitoring" id="toc-environmental-monitoring" class="nav-link" data-scroll-target="#environmental-monitoring"><span class="header-section-number">1.2.2</span> Environmental Monitoring</a></li>
+  <li><a href="#urban-planning" id="toc-urban-planning" class="nav-link" data-scroll-target="#urban-planning"><span class="header-section-number">1.2.3</span> Urban Planning</a></li>
+  <li><a href="#disaster-management" id="toc-disaster-management" class="nav-link" data-scroll-target="#disaster-management"><span class="header-section-number">1.2.4</span> Disaster Management</a></li>
+  <li><a href="#agriculture" id="toc-agriculture" class="nav-link" data-scroll-target="#agriculture"><span class="header-section-number">1.2.5</span> Agriculture</a></li>
   </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.3</span> Reflection</a></li>
   </ul>
@@ -222,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="1.1.2" class="anchored" data-anchor-id="electromagnetic-waves-a-physics-recap"><span class="header-section-number">1.1.2</span> Electromagnetic Waves: A Physics Recap</h3>
 <p>Electromagnetic radiation (EMR) takes the form of waves and consists of electric and magnetic fields. The properties of EMR include wavelength (λ), velocity of light (c), and frequency (v), wherein the wavelength can be calculated with the following equation.</p>
 <p><span class="math inline">\(λ = \frac{c}{v}\)</span></p>
-<p>EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles (such as in the atmosphere). Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.</p>
+<p>EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles (such as in the atmosphere). Scattering types include Rayleigh (particles are very small compared to the wavelength), Mie (particles are the same size compared to the wavelength), and non-selective (particles are much larger than the wavelength )scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.</p>
 </section>
 <section id="resolution" class="level3" data-number="1.1.3">
 <h3 data-number="1.1.3" class="anchored" data-anchor-id="resolution"><span class="header-section-number">1.1.3</span> Resolution</h3>
@@ -237,15 +240,35 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="application"><span class="header-section-number">1.2</span> Application</h2>
-<section id="landsat-usgs" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="landsat-usgs"><span class="header-section-number">1.2.1</span> Landsat (USGS)</h3>
+<p>The utilisation of satellite sensors, their spectral bands, and the principles of electromagnetic wave detection form the cornerstone of modern remote sensing technologies. These elements enable the comprehensive monitoring and analysis of Earth’s surface, offering invaluable data for a multitude of applications across environmental science, urban planning, disaster management, and agriculture. It is hard to imagine how remote sensing is not useful - it seems to form the backbone of many vital modern services. Much GIS analysis and strategic planning relies on satellite data. It is this data that tackling many of the world’s issues hinges on: climate change responses and uderstanding could not take place (at least to the extent they now do) without this data; the level of objective precision it provides is vital. Additionally, for understanding optimal location services (whether governmental, commercial, or otherwise), these datasets are vital, such as for understanding soil types at a large-scale, or conducting regional, national or even planetary analysis and research.</p>
+<section id="satellite-sensors-and-spectral-bands" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="satellite-sensors-and-spectral-bands"><span class="header-section-number">1.2.1</span> <strong>Satellite Sensors and Spectral Bands</strong></h3>
+<p>Active sensors, such as Synthetic Aperture Radar (SAR), emit their own electromagnetic radiation and measure the energy that is reflected back from Earth’s surface. This capability allows SAR sensors, such as in Sentinel-1, to acquire data regardless of daylight or weather conditions, making them especially useful for monitoring changes in surface topography, vegetation structure, and urban development.</p>
+<p>Passive sensors, on the other hand, rely on sunlight as their energy source, detecting the radiation reflected or emitted by objects on Earth. These sensors, found on platforms like Landsat and Sentinel-2 satellites, capture data across multiple spectral bands, including visible light, infrared, and near-infrared. Each band is sensitive to different surface properties, enabling the detailed observation of vegetation health, water quality, and land cover changes.</p>
+<p>The concept of spectral signatures, unique to each material or object, is fundamental to remote sensing. By analysing the way different surfaces absorb and reflect light across various bands, scientists can identify and classify the materials present on Earth’s surface with remarkable accuracy. This capability is pivotal for creating land cover maps, assessing crop health in agriculture, and monitoring environmental degradation.</p>
 </section>
-<section id="sentinel-copernicus" class="level3" data-number="1.2.2">
-<h3 data-number="1.2.2" class="anchored" data-anchor-id="sentinel-copernicus"><span class="header-section-number">1.2.2</span> Sentinel (Copernicus)</h3>
+<section id="environmental-monitoring" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="environmental-monitoring"><span class="header-section-number">1.2.2</span> Environmental Monitoring</h3>
+<p>Studies leveraging the spectral bands of passive sensors have significantly advanced our ability to monitor environmental changes. For instance, the NDVI (Normalized Difference Vegetation Index), which uses red and near-infrared bands, has been widely applied to assess vegetation health and biomass. This index has facilitated global monitoring of deforestation, desertification, and the impacts of climate change on ecosystems. This is evident with <a href="Global Forest Watch">Global Forest Watch</a>, an initiative that uses satellite imagery, including Landsat and Sentinel-2 data, to monitor forest changes globally in real-time.</p>
+</section>
+<section id="urban-planning" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="urban-planning"><span class="header-section-number">1.2.3</span> Urban Planning</h3>
+<p>Active sensors like SAR have revolutionized urban planning through their ability to penetrate cloud cover and provide high-resolution images of urban areas. The data from SAR sensors support the mapping of urban infrastructure, monitoring of construction activities, and assessment of urban sprawl, contributing to more informed planning and development policies.</p>
+</section>
+<section id="disaster-management" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="disaster-management"><span class="header-section-number">1.2.4</span> Disaster Management</h3>
+<p>The real-time data acquisition capabilities of satellite sensors are crucial for disaster management. SAR imagery, for example, has been instrumental in mapping flood extents and assessing damage post-disaster. This information enables rapid response and aids in the efficient allocation of resources during emergency situations.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2CKxV_mTuxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="agriculture" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" class="anchored" data-anchor-id="agriculture"><span class="header-section-number">1.2.5</span> Agriculture</h3>
+<p>The multispectral data from passive sensors are extensively used in precision agriculture to monitor crop health, optimise irrigation, and predict yields. By analysing spectral signatures, farmers can identify stressed crops early and apply targeted interventions, leading to increased productivity and sustainability.</p>
 </section>
 </section>
 <section id="reflection" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
+<p>This week has introduced the fundamental ideas behind remote sensing. My initial thoughts are that it is quite daunting. It becomes easy to get confused between different satellites, their capabilties, their exact properties, etc. However, it is vital to so many processes. The fight against climate change seems heavily reliant on remotely sensed data and analysis and indeed many examples of remote sensing technology use is in regard to forest monitoring, flooding, agricultural management and land classification.</p>
+<p>This week introduced SNAP and it is safe to say that I look forward to getting stuck into Google Earth Engine. Snap, due to running locally, can often take a while to process data and provide outputs, which can prove to be rather cumbersome. However, it is is quite fun to play with. Taking something that intially looks illegible and, frankly, scary into something useful and actionable gives a sense of accomplishment which somewhat makes the process worth it!</p>
 
 
 </section>

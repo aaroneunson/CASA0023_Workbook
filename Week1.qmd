@@ -19,7 +19,7 @@ Electromagnetic radiation (EMR) takes the form of waves and consists of electric
 
 $λ = \frac{c}{v}$
 
-EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles (such as in the atmosphere). Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.
+EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles (such as in the atmosphere). Scattering types include Rayleigh (particles are very small compared to the wavelength), Mie (particles are the same size compared to the wavelength), and non-selective (particles are much larger than the wavelength )scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.
 
 ### Resolution
 
@@ -35,8 +35,37 @@ Remote sensing systems have [four main types of resolution](https://www.earthdat
 
 ## Application
 
-### Landsat (USGS)
+The utilisation of satellite sensors, their spectral bands, and the principles of electromagnetic wave detection form the cornerstone of modern remote sensing technologies. These elements enable the comprehensive monitoring and analysis of Earth's surface, offering invaluable data for a multitude of applications across environmental science, urban planning, disaster management, and agriculture. It is hard to imagine how remote sensing is not useful - it seems to form the backbone of many vital modern services. Much GIS analysis and strategic planning relies on satellite data. It is this data that tackling many of the world's issues hinges on: climate change responses and uderstanding could not take place (at least to the extent they now do) without this data; the level of objective precision it provides is vital. Additionally, for understanding optimal location services (whether governmental, commercial, or otherwise), these datasets are vital, such as for understanding soil types at a large-scale, or conducting regional, national or even planetary analysis and research.
 
-### Sentinel (Copernicus)
+### **Satellite Sensors and Spectral Bands**
+
+Active sensors, such as Synthetic Aperture Radar (SAR), emit their own electromagnetic radiation and measure the energy that is reflected back from Earth's surface. This capability allows SAR sensors, such as in Sentinel-1, to acquire data regardless of daylight or weather conditions, making them especially useful for monitoring changes in surface topography, vegetation structure, and urban development.
+
+Passive sensors, on the other hand, rely on sunlight as their energy source, detecting the radiation reflected or emitted by objects on Earth. These sensors, found on platforms like Landsat and Sentinel-2 satellites, capture data across multiple spectral bands, including visible light, infrared, and near-infrared. Each band is sensitive to different surface properties, enabling the detailed observation of vegetation health, water quality, and land cover changes.
+
+The concept of spectral signatures, unique to each material or object, is fundamental to remote sensing. By analysing the way different surfaces absorb and reflect light across various bands, scientists can identify and classify the materials present on Earth's surface with remarkable accuracy. This capability is pivotal for creating land cover maps, assessing crop health in agriculture, and monitoring environmental degradation.
+
+### Environmental Monitoring
+
+Studies leveraging the spectral bands of passive sensors have significantly advanced our ability to monitor environmental changes. For instance, the NDVI (Normalized Difference Vegetation Index), which uses red and near-infrared bands, has been widely applied to assess vegetation health and biomass. This index has facilitated global monitoring of deforestation, desertification, and the impacts of climate change on ecosystems. This is evident with [Global Forest Watch](Global%20Forest%20Watch), an initiative that uses satellite imagery, including Landsat and Sentinel-2 data, to monitor forest changes globally in real-time.
+
+### Urban Planning
+
+Active sensors like SAR have revolutionized urban planning through their ability to penetrate cloud cover and provide high-resolution images of urban areas. The data from SAR sensors support the mapping of urban infrastructure, monitoring of construction activities, and assessment of urban sprawl, contributing to more informed planning and development policies.
+
+### Disaster Management
+
+The real-time data acquisition capabilities of satellite sensors are crucial for disaster management. SAR imagery, for example, has been instrumental in mapping flood extents and assessing damage post-disaster. This information enables rapid response and aids in the efficient allocation of resources during emergency situations.
+
+```{=html}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2CKxV_mTuxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+### Agriculture
+
+The multispectral data from passive sensors are extensively used in precision agriculture to monitor crop health, optimise irrigation, and predict yields. By analysing spectral signatures, farmers can identify stressed crops early and apply targeted interventions, leading to increased productivity and sustainability.
 
 ## Reflection
+
+This week has introduced the fundamental ideas behind remote sensing. My initial thoughts are that it is quite daunting. It becomes easy to get confused between different satellites, their capabilties, their exact properties, etc. However, it is vital to so many processes. The fight against climate change seems heavily reliant on remotely sensed data and analysis and indeed many examples of remote sensing technology use is in regard to forest monitoring, flooding, agricultural management and land classification. 
+
+This week introduced SNAP and it is safe to say that I look forward to getting stuck into Google Earth Engine. Snap, due to running locally, can often take a while to process data and provide outputs, which can prove to be rather cumbersome. However, it is is quite fun to play with. Taking something that intially looks illegible and, frankly, scary into something useful and actionable gives a sense of accomplishment which somewhat makes the process worth it!

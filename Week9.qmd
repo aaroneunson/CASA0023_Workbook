@@ -10,7 +10,7 @@ An active sensor technology that emits electromagnetic signals to capture surfac
 
 [**Polarization:**]{.underline}
 
-Refers to the orientation of the electromagnetic wave's plane, critical in determining how different surfaces interact with SAR signals. Polarizations include single (horizontal or vertical), dual, and various combinations (HH, VV, VH, HV), influencing how rough surfaces, vegetation, or man-made structures are detected.
+Refers to the orientation of the electromagnetic wave's plane, critical in determining how different surfaces interact with SAR signals. Polarisations include single (horizontal or vertical), dual, and various combinations (HH, VV, VH, HV), influencing how rough surfaces, vegetation, or man-made structures are detected.
 
 [**Amplitude and Phase:**]{.underline}
 
@@ -67,3 +67,9 @@ The study also identified challenges in applying SAR for wetland monitoring, suc
 ## Reflection
 
 What struck me this week is the ability of SAR to detect micro changes. Due to the properties of the waves being used (very small wavelengths), through implementing change detection (looking at one period in time compared to another), it is possible to detect cm changes in the elevation of the land.
+
+I also find it quite jarring to move between SAR (for example) and optical waves (e.g. as collected by Landsat) - it would appear there are slightly different techniques involved. This is obvious though given they are different techniques. I have focussed on Landsat data for most of the module and have built a relative comfort to it, and so to then move to a discussion on SAR was quite interesting.
+
+The rice crop monitoring case study is quite interesting, I did not delve into too deeply this week (purely through lack of time), but it is something I will explore further. I am planning to conduct my dissertation on mapping the wine industry of the UK, wherein identifying nuanced characteristics, which do not seem possible given the immense distances between the sensor and sensed object.
+
+SAR strikes me as a very powerful sensor and indeed its ability to be operational at night as well as during the day (largely, unlike other sensors).

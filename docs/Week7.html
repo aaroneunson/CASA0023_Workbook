@@ -175,7 +175,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#urban-green-spaces" id="toc-urban-green-spaces" class="nav-link" data-scroll-target="#urban-green-spaces"><span class="header-section-number">6.1.2</span> Urban Green Spaces</a></li>
   <li><a href="#monitoring-forests-and-illegal-logging" id="toc-monitoring-forests-and-illegal-logging" class="nav-link" data-scroll-target="#monitoring-forests-and-illegal-logging"><span class="header-section-number">6.1.3</span> Monitoring Forests and Illegal Logging</a></li>
   <li><a href="#machine-learning-and-classification-techniques" id="toc-machine-learning-and-classification-techniques" class="nav-link" data-scroll-target="#machine-learning-and-classification-techniques"><span class="header-section-number">6.1.4</span> Machine Learning and Classification Techniques</a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</a></li>
+  <li><a href="#regression-trees" id="toc-regression-trees" class="nav-link" data-scroll-target="#regression-trees"><span class="header-section-number">6.1.6</span> <strong>Regression Trees</strong></a></li>
+  <li><a href="#random-forests" id="toc-random-forests" class="nav-link" data-scroll-target="#random-forests"><span class="header-section-number">6.1.7</span> <strong>Random Forests</strong></a></li>
+  <li><a href="#unsupervised-machine-learning-k-means" id="toc-unsupervised-machine-learning-k-means" class="nav-link" data-scroll-target="#unsupervised-machine-learning-k-means"><span class="header-section-number">6.1.8</span> <strong>Unsupervised Machine Learning (K-Means)</strong></a></li>
+  <li><a href="#isodata-iterative-self-organizing-data-analysis-technique" id="toc-isodata-iterative-self-organizing-data-analysis-technique" class="nav-link" data-scroll-target="#isodata-iterative-self-organizing-data-analysis-technique"><span class="header-section-number">6.1.9</span> <strong>ISODATA (Iterative Self-Organizing Data Analysis Technique)</strong></a></li>
+  <li><a href="#supervised-learning-parametric-and-non-parametric" id="toc-supervised-learning-parametric-and-non-parametric" class="nav-link" data-scroll-target="#supervised-learning-parametric-and-non-parametric"><span class="header-section-number">6.1.10</span> <strong>Supervised Learning (Parametric and Non-Parametric)</strong></a></li>
+  <li><a href="#svm-support-vector-machines" id="toc-svm-support-vector-machines" class="nav-link" data-scroll-target="#svm-support-vector-machines"><span class="header-section-number">6.1.11</span> <strong>SVM (Support Vector Machines)</strong></a></li>
   </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a>
   <ul class="collapse">
@@ -211,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <p>It incorporates the use of various sensors like Landsat, Sentinel-3, and Sentinel-5, along with different methodologies including regression analysis, hex grids (honeycombing), and statistical comparisons.</p>
 <section id="urban-expansion-and-air-pollution" class="level3" data-number="6.1.1">
 <h3 data-number="6.1.1" class="anchored" data-anchor-id="urban-expansion-and-air-pollution"><span class="header-section-number">6.1.1</span> Urban Expansion and Air Pollution</h3>
-<p>The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis. A case study highlights the LULC distribution’s significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.</p>
+<p>The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis. The case study used highlights the LULC distribution’s significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center.</p>
 </section>
 <section id="urban-green-spaces" class="level3" data-number="6.1.2">
 <h3 data-number="6.1.2" class="anchored" data-anchor-id="urban-green-spaces"><span class="header-section-number">6.1.2</span> Urban Green Spaces</h3>
@@ -219,19 +224,60 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="monitoring-forests-and-illegal-logging" class="level3" data-number="6.1.3">
 <h3 data-number="6.1.3" class="anchored" data-anchor-id="monitoring-forests-and-illegal-logging"><span class="header-section-number">6.1.3</span> Monitoring Forests and Illegal Logging</h3>
-<p>Challenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas. The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.</p>
+<p>Challenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas. Also, forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.</p>
 </section>
 <section id="machine-learning-and-classification-techniques" class="level3" data-number="6.1.4">
 <h3 data-number="6.1.4" class="anchored" data-anchor-id="machine-learning-and-classification-techniques"><span class="header-section-number">6.1.4</span> Machine Learning and Classification Techniques</h3>
 <p>An exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis. Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets. Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.</p>
+<section id="cart" class="level4" data-number="6.1.4.1">
+<h4 data-number="6.1.4.1" class="anchored"><span class="header-section-number">6.1.4.1</span> CART</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Week7/CARTClassificationAndRegressionTree.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example of CART process (<a href="https://www.geeksforgeeks.org/cart-classification-and-regression-tree-in-machine-learning/">geeksforgeeks</a>)</figcaption>
+</figure>
+</div>
+<p><strong>What?</strong> A predictive model that represents a decision process for classification or regression. It’s used to categorise or predict the value of a target variable based on input variables (such as different spectral bands).</p>
+<p><strong>How?</strong> It creates a tree-like structure where each node represents a decision rule on an input variable, and each branch represents the outcome of that decision leading to different predictions or classifications.</p>
+<blockquote class="blockquote">
+<h3 id="gini-impurity" data-number="6.1.5" class="anchored" data-anchor-id="cart"><span class="header-section-number">6.1.5</span> <strong>Gini Impurity</strong></h3>
+<p><strong>What?</strong> A measure used in CART to determine how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.</p>
+<p><strong>How?</strong> It measures the frequency at which any element of the dataset will be misclassified when it is randomly labeled. A Gini Impurity of 0 means all elements belong to a single class, indicating perfect purity.</p>
+</blockquote>
 </section>
-<section id="key-takeaways" class="level3" data-number="6.1.5">
-<h3 data-number="6.1.5" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</h3>
+</section>
+<section id="regression-trees" class="level3" data-number="6.1.6">
+<h3 data-number="6.1.6" class="anchored" data-anchor-id="regression-trees"><span class="header-section-number">6.1.6</span> <strong>Regression Trees</strong></h3>
+<p><strong>What?</strong> A type of decision tree designed for continuous data. While classification trees are used to predict categorical outcomes, regression trees predict numeric outcomes (such as the amount of rainfall).</p>
+<p><strong>How?</strong> It splits the data into branches to minimize the variance of responses within the branches, aiming to create groups that are as homogenous as possible in terms of the continuous response variable.</p>
+</section>
+<section id="random-forests" class="level3" data-number="6.1.7">
+<h3 data-number="6.1.7" class="anchored" data-anchor-id="random-forests"><span class="header-section-number">6.1.7</span> <strong>Random Forests</strong></h3>
+<p><strong>What?</strong> An ensemble learning method that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.</p>
+<p><strong>How?</strong> It improves the predictive accuracy and controls over-fitting by averaging or combining the results of individual decision trees, which reduces the variance and bias of the model.</p>
+</section>
+<section id="unsupervised-machine-learning-k-means" class="level3" data-number="6.1.8">
+<h3 data-number="6.1.8" class="anchored" data-anchor-id="unsupervised-machine-learning-k-means"><span class="header-section-number">6.1.8</span> <strong>Unsupervised Machine Learning (K-Means)</strong></h3>
+<p><strong>What?</strong> An unsupervised learning algorithm that groups unlabeled datasets into different clusters. K-means clustering is a method to automatically partition the data into K groups.</p>
+<p><strong>How?</strong> It identifies K centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.</p>
+</section>
+<section id="isodata-iterative-self-organizing-data-analysis-technique" class="level3" data-number="6.1.9">
+<h3 data-number="6.1.9" class="anchored" data-anchor-id="isodata-iterative-self-organizing-data-analysis-technique"><span class="header-section-number">6.1.9</span> <strong>ISODATA (Iterative Self-Organizing Data Analysis Technique)</strong></h3>
+<p><strong>What?</strong> A more advanced version of K-means that allows the number of clusters to be automatically adjusted during the iteration process.</p>
+<p><strong>How?</strong> It starts with an initial set of clusters and iteratively refines them by splitting, merging, or removing clusters based on the variability of the data and the distance between clusters.</p>
+</section>
+<section id="supervised-learning-parametric-and-non-parametric" class="level3" data-number="6.1.10">
+<h3 data-number="6.1.10" class="anchored" data-anchor-id="supervised-learning-parametric-and-non-parametric"><span class="header-section-number">6.1.10</span> <strong>Supervised Learning (Parametric and Non-Parametric)</strong></h3>
+<p><strong>What?</strong> Supervised learning involves training a model on a labeled dataset, which means the model learns from data that already contains the answers.</p>
 <ul>
-<li><p>Classification techniques are vital for understanding and monitoring environmental changes, especially in response to more complex, data-intensive situations.</p></li>
-<li><p>Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.</p></li>
-<li><p>The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.</p></li>
+<li><p><strong>Parametric</strong> methods assume a predefined form for the function that maps inputs to outputs (e.g., linear regression).</p></li>
+<li><p><strong>Non-Parametric</strong> methods do not assume any specific form for the mapping function, allowing the data to determine the model structure (e.g., k-nearest neighbors).</p></li>
 </ul>
+</section>
+<section id="svm-support-vector-machines" class="level3" data-number="6.1.11">
+<h3 data-number="6.1.11" class="anchored" data-anchor-id="svm-support-vector-machines"><span class="header-section-number">6.1.11</span> <strong>SVM (Support Vector Machines)</strong></h3>
+<p><strong>What?</strong> A classification method that works by finding the hyperplane that best separates different classes in the feature space.</p>
+<p><strong>How?</strong> It looks for the hyperplane with the maximum margin, meaning the greatest distance between data points of both classes. It can handle linear and non-linear data thanks to the use of kernel functions that implicitly map input features into high-dimensional spaces.</p>
 </section>
 </section>
 <section id="application" class="level2" data-number="6.2">
@@ -240,19 +286,26 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="random-forests-in-land-cover-classification"><span class="header-section-number">6.2.1</span> <strong>Random Forests in Land Cover Classification</strong></h3>
 <p>The use of Random Forests (RF) for land cover classification means that more accurate maps of land use and cover can be developed, allowing policymakers to better assess the status of natural habitats, plan conservation areas, and monitor changes over time, as well as many other uses related to urban planning, economic and environmental development, etc. Its application has supported biodiversity conservation policies by identifying critical habitats and tracking the effectiveness of conservation measures.</p>
 <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271611001304">Rodriguez-Galiano et al (2012)</a> explore the effectiveness of the RF classifier for land cover classification in a notably complex area, using multi-temporal Landsat-5 Thematic Mapper data and variables from a DEM. The study area focused on the Province of Granada in the south of Spain, which is characterised by a diverse range of land cover types. Random Forests is shown to provide a high classification accuracy, the ability to handle large datasets with noise, and its flexibility across different types of data analysis without requiring assumptions about data distribution.</p>
-<p>Some key findings from the study include:</p>
+<p><u>Some key findings from the study include:</u></p>
 <ul>
-<li><p>The RF classifier achieved a high level of mapping accuracy for land cover classification, reaching an overall accuracy of 92% and a Kappa index of 0.92 (indicating excellent agreement beyond chance).</p></li>
-<li><p>RF’s robustness was notable against reductions in training data size and the addition of noise. Significant decreases in accuracy were observed only when training data was reduced by more than 50% and noise was added above 20%.</p></li>
-<li><p>It was identified that texture and geostatistical measures (such as madograms, rodograms, direct variograms, cross- and pseudo-cross variograms), alongside multi-seasonal spectral information, are the most important variables for classification, which had aligned with prior expectations. This helps in understanding the factors influencing land cover types.</p></li>
-<li><p>Compared to a single decision tree, RF demonstrated superior performance, validated by a McNemar test with a significance level of 0.00001, suggesting that RF is a more reliable method for land cover classification in complex areas.</p></li>
+<li><p>The RF classifier achieved a <strong>high level of mapping accuracy</strong> for land cover classification, reaching an overall accuracy of 92% and a Kappa index of 0.92 (indicating excellent agreement beyond chance).</p></li>
+<li><p>RF’s <strong>robustness was notable against reductions in training data size</strong> and the addition of noise. Significant decreases in accuracy were observed only when training data was reduced by more than 50% and noise was added above 20%.</p></li>
+<li><p>It was <strong>identified that texture and geostatistical measures</strong> (such as madograms, rodograms, direct variograms, cross- and pseudo-cross variograms), <strong>alongside multi-seasonal spectral information, are the most important variables for classification</strong>, which had aligned with prior expectations. This helps in understanding the factors influencing land cover types.</p></li>
+<li><p><strong>Compared to a single decision tree, RF demonstrated superior performance</strong>, validated by a McNemar test with a significance level of 0.00001, suggesting that RF is a more reliable method for land cover classification in complex areas.</p></li>
 </ul>
-<p>The study underscores the value of RF as a machine learning technique for land cover monitoring, particularly in large, heterogeneous landscapes. Its ability to maintain high accuracy despite data challenges and its non-parametric nature make it a powerful tool for remote sensing applications. This work not only validates the efficacy of RF in classifying complex land cover types but also encourages its broader adoption in the remote sensing community for large-scale environmental monitoring and analysis.</p>
-<p><strong>Literature Reference:</strong> Rodriguez-Galiano, V.F., et al.&nbsp;(2012). “An assessment of the effectiveness of a random forest classifier for land-cover classification.” ISPRS Journal of Photogrammetry and Remote Sensing, 67, 93–104.</p>
+<p>The study underscores the value of RF as an ML technique for land cover monitoring, particularly in large, heterogeneous landscapes. Its ability to maintain high accuracy despite data challenges and its non-parametric nature make it a powerful tool for remote sensing applications. This work not only validates the efficacy of RF in classifying complex land cover types but also encourages its broader adoption in the remote sensing community for large-scale environmental monitoring and analysis.</p>
 </section>
 </section>
 <section id="reflection" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
+<p>These are clearly rather powerful methods. Some, such as SVM and RF seem to be more so than others, though it is difficult to precisely tell at this stage - I hope that as I ustilise them further, I will gain a greater appreciation for their specific use cases and the differences between exactly what their outputs are telling me (without having to scramble around on Google!).</p>
+<p>This is my first time properly engaging with ML techniques and I have heard much about issues with biases in training data - the data you feed the algorithm is the data it then uses to conduct analysis from which insights are derived. Upon seeing its use in RS, I am reminded of this issue - if we trained a model solely on data from the Saraha Desert and then tried to apply it to the Amazon Rainforest, you would probably see very ‘wild’ outputs. This is probably a slight exaggeration of what most people would think to do, but it explains the issue well. I was recently in Denmark at the Lousiana Museum of Modern Art where an <a href="https://louisiana.dk/en/event/seeing-like-a-machine-moed-kunstner-trevor-paglen/">installation</a> called <em>From ‘Apple’ to ‘Abomination’</em> by Trevor Paglen (see pictures at the bottom of the page). It demonstrated the vitality of training ML algorithms without bias.</p>
+<blockquote class="blockquote">
+<p>For example, defining what an apple looks like is relatively simple, but how do we define what a ‘good’ or ‘bad’ person looks like?</p>
+</blockquote>
+<p>This is highly relevant to RS where the question of how do we define what something like an urban settlement looks like? Is there one form? Are there many? If we assume that a settlement must have roads, what of smaller villages located in more rural areas (especially in lesser developed countries) where they may not have roads. A city in Niger looks very different to a city in Brazil, which looks very different from a city in the US. This is probably where methods, such as unsupervised ML techniques are most useful - applying these techniques to global dataset (due to the nature of satellite imagery which captures the whole Earth), much less human interaction and bias can be introduced to the model, maintaining its objectivity as well as can be done.</p>
+<p><img src=".\Week7/PXL_20240214_113346768.jpg" class="img-fluid" alt="Image 1"> <img src=".\Week7/PXL_20240214_113401538.jpg" class="img-fluid" alt="Image 2"> <img src=".\Week7/PXL_20240214_113428483.jpg" class="img-fluid" alt="Image 3"> <img src=".\Week7/PXL_20240214_113439692.jpg" class="img-fluid" alt="Image 4"></p>
+<p><img src=".\Week7/PXL_20240214_113449277.jpg" class="img-fluid" alt="Image 5"> <img src=".\Week7/PXL_20240214_113456228.jpg" class="img-fluid" alt="Image 6"> <img src=".\Week7/PXL_20240214_113652811.jpg" class="img-fluid" alt="Image 7"> <img src=".\Week7/PXL_20240214_113659200.jpg" class="img-fluid" alt="Image 8"></p>
 
 
 </section>
