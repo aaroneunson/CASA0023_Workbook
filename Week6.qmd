@@ -1,4 +1,4 @@
-# Intro to Google Earth Engine
+# Intro to Google Earth Engine 
 
 ## Summary
 
