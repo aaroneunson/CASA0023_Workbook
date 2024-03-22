@@ -54,4 +54,18 @@ The lecture covers advanced techniques in landcover classification, including th
 
 ## Application
 
+### A Deep Convolution Neural Network Method for Land Cover Mapping
+
+**A Case Study of Qinhuangdao, China**
+
+[Hu et al (2018)](https://www.mdpi.com/2072-4292/10/12/2053) address several challenges in land cover classification using traditional CNN methods, such as the application to multispectral and hyperspectral imagery and the automation of training dataset construction. They introduce a novel deep CNN (DCNN) based on Landsat-8 imagery, which integrates cascaded cross-channel parametric pooling and global average pooling methods. Their adapted approach allowed the researchers to well utilise multispectral data from the Landsat-8 OLI. This approach is directly responding to the need for models that are able to better generalise and handle the complex nature of satellite imagery, including the challenge of automating the construction of a training database.
+
+The study introduces a semi-automatic method for constructing these datasets, which significantly reduces the need for manual labour (such as manually labelling training data - a long, slow, and arduous task!). It leverages existing high-quality land cover products (such as comprehensive maps or datasets that have already been accurately classified). By extracting land type information from these products, the method can automatically assign labels to training data points based on their location and the corresponding classification in the high-quality land cover product.
+
+> For example, if a satellite image pixel falls within a region classified as "forest" in a high-quality land cover map, the semi-automatic method can automatically label that pixel as "forest" in the training dataset. This approach allows for the creation of large, accurately labeled training datasets at a greater pace than other methods, enabling more efficient training of DCNNs for tasks like land cover classification.
+
+This addresses a major bottleneck in applying machine learning to remote sensing, which is the task of preparing large-scale, accurately labelled datasets. By automating part of the labeling process, researchers can more readily apply advanced machine learning models to the vast amounts of satellite imagery available, potentially leading to better models for predicting and understanding land cover changes on a global scale.
+
+The DCNN model demonstrated superior performance over traditional methods, achieving an overall accuracy of 82.0% and a kappa coefficient of 0.76. This improvement is attributed to the model's ability to incorporate spatial information from surrounding pixels (vital for addressing spatial autocorrelation which is inherent in spatial data), reducing misclassifications that often occur in pixel-based approaches. Typical pixel-based approaches might treat each pixel as independent, ignoring the potentially valuable context provided by adjacent pixels. The DCNN employed here is able to accurately distinguish between land uses (such as in areas where the boundaries between different land covers are more graduated or where classes have similar spectral signatures but are spatially distinct). The overall accuracy value and kappa coefficient highlight the significant improvements that can be attained through deep learning models when compared with other classification methods such as SVM and MLC.
+
 ## Reflection

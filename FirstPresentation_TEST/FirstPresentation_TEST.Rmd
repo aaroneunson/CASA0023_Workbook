@@ -80,6 +80,9 @@ style_duo_accent(
 - Circled the Earth every 99 minutes, with 14 orbits per day
 - Passive sensor: relying on sunlight reflected and emitted from the Earth's surface
 
+<center><img src="5019-Landsat-timeline-2024b.png" alt="GithHub Octocat" height="300px" /></center>
+
+
 ---
 
 # Summary: Overview of Sensors

@@ -4,7 +4,7 @@
 
 Remote sensing is defined by [NASA](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) (quite an expert in this field) as:
 
-> "the acquiring information from a distance"
+> "the acquiring of information from a distance"
 
 ### Active vs. Passive Sensors
 
@@ -15,15 +15,15 @@ This is done using sensors mounted on various platforms such as satellites, plan
 
 ### Electromagnetic Waves: A Physics Recap
 
-Electromagnetic radiation (EMR) propagates as waves and consists of electric and magnetic fields. The properties of EMR include wavelength (λ), velocity of light (c), and frequency (v), wherein the wavelength can be calculated with the following equation.
+Electromagnetic radiation (EMR) takes the form of waves and consists of electric and magnetic fields. The properties of EMR include wavelength (λ), velocity of light (c), and frequency (v), wherein the wavelength can be calculated with the following equation.
 
 $λ = \frac{c}{v}$
 
-EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles. Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.
+EMR can be absorbed, transmitted, scattered, or reflected by surfaces and particles (such as in the atmosphere). Scattering types include Rayleigh, Mie, and non-selective scattering. EMR properties influence phenomena such as the appearance of the sky, ocean color, and sensor capabilities like Synthetic Aperture Radar (SAR) and polarization.
 
 ### Resolution
 
-Remote sensing systems have four main types of resolution:
+Remote sensing systems have [four main types of resolution](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing):
 
 -   **Spatial:** Refers to the size of the raster grid per pixel, typically ranging from centimeters to kilometers.
 

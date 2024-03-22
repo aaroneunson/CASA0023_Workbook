@@ -48,4 +48,22 @@ SAR's ability to penetrate clouds and capture data under any weather conditions 
 
 ## Application
 
+### Rice Crop Monitoring
+
+In Japan, a [study](https://www.mdpi.com/2072-4292/14/14/3254) leveraged C-band microwave images from Sentinel-1 satellites to monitor rice crop growth. The research aimed to understand how microwave backscatter behavior is influenced by decreases in panicle water content during ripening, which affects C-band backscatter. The findings demonstrated that Sentinel-1 images with shallow incidence angles and high revisit capabilities hold significant potential for estimating panicle water content, thereby providing a method to estimate the proper harvesting time based on grain filling conditions​​.
+
+### **Wetland Monitoring**
+
+A [comprehensive meta-analysis](https://www.mdpi.com/2072-4292/12/14/2190) revealed SAR's capability in wetland monitoring, emphasising its unique potential for rapid and accurate mapping of wetland extent and type. This study reviewed 172 papers, and highlighted an upward trend in the use of SAR data for wetland research, with attention to the benefits of integrating multi-sensor data and the advantages of using multi-frequency and multi-polarised SAR data for higher classification accuracy.
+
+![Number of studies for wetland mapping, change detection, water level monitoring, inundation mapping (water extraction), biomass and soil moisture application are shown (Adeli et al, 2020)](/Week9/remotesensing-12-02190-g012.png)
+
+The study also identified challenges in applying SAR for wetland monitoring, such as the backscattering similarity among different wetland classes and the selection of appropriate SAR specifications based on wetland type. They suggest that the issue of backscattering similarity is best addressed through the use of supervised machine learning techniques (such as SVM, MLC, or Object-Based Random Forests).
+
+> *"Changes in wetlands alter the surface being illuminated by the SAR signal and consequently change the image intensity or backscattering mechanism. The final outcome of intensity based change detection technique is calculated by differencing before and after phenomena image pixels. As mentioned, a change in the backscattering mechanism can be considered as an indicator of change in the surface type. As a case in point, when a wet soil turns into an open water body the backscattering mechanism changes from surface scattering to specular scattering. If the wetland surface is more complex, polarimetric features can be used as an input to object-based classification."*
+>
+> \- Adeli et al (2020, p. 17)
+
 ## Reflection
+
+What struck me this week is the ability of SAR to detect micro changes. Due to the properties of the waves being used (very small wavelengths), through implementing change detection (looking at one period in time compared to another), it is possible to detect cm changes in the elevation of the land.

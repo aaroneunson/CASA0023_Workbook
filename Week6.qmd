@@ -44,4 +44,29 @@ Projections are managed automatically by GEE, typically converting data into the
 
 ## Application
 
+\
+The introduction of Google Earth Engine has transformed the ways in which geospatial data is and can be analysed and applied. Due to its easy access to data (with over [50Pb of data in its catalogue](https://www.earthblox.io/blog/google-earth-engine-for-commercial-use-what-the-new-access-means-for-your-impact-business)!), processing capabilities, as well as its commercial accessibility, GGE has significant applications in environmental and climate change science, urban planning, agriculture, and disaster management, among many other uses.
+
+In [2022, Google made it possible](https://blog.google/products/earth/introducing-earth-engine-for-governments-and-businesses/) to buy commercial licenses for the use of the platform, before this it was restricted (formally) for use in research, education, or not-for-profit activities.
+
+![Google Earth Engine Scholarly Use Over Time ([Zhao et al, 2021](https://www.mdpi.com/2072-4292/13/18/3778))](/Week6/remotesensing-13-03778-g001.png)
+
+### **Environmental Monitoring and Conservation**
+
+One of the most significant applications of GEE is in environmental monitoring and conservation. Because of the platform's ability to handle massive datasets and perform planetary-scale analyses has been pivotal in tracking deforestation and forest fires, mapping biodiversity, and monitoring water resources. A study by [Hansen et al. (2013)](https://www.science.org/doi/10.1126/science.1244693) utilised GEE to map global forest cover and loss, providing insights into deforestation trends that inform conservation policies. They produced high-resolution global maps of 21st-century forest cover change. The study used GEE's ability to handle large-scale image collections and its efficient processing capabilities (which run on powerful remote servers) to analyse satellite imagery over time, illustrating the platform's power in environmental governance and policy-making. This ability to more easily understand, map, and quantify the world.
+
+![(A) Tree cover, (B) forest loss, and (C) forest gain. A color composite of tree cover in green, forest loss in red, forest gain in blue, and forest loss and gain in magenta is shown in (D), with loss and gain enhanced for improved visualization (Hansen et al, 2013)](/Week6/hansen_etal_2013.jpg).
+
+### **Climate Change and Carbon Sequestration Studies**
+
+GEE has also been instrumental in climate change research, particularly in assessing carbon stocks and fluxes. The platform's ability to process and analyze vast amounts of raster data enables researchers to estimate carbon sequestration and emission levels across large areas. For example, Gorelick et al. (2017) highlighted the use of GEE in quantifying changes in forest carbon stocks, employing the platform's image collection and reduction capabilities to assess temporal changes in biomass. Such studies are crucial for understanding the carbon cycle and informing international climate agreements like the Paris Agreement.
+
+### **Agricultural Practices and Sustainability**
+
+Some companies, such as [Regrow](https://www.regrow.ag/case-studies), are using GEE to report and verify regenerative and sustainable agricultural techniques. Through GEE's analysis of historical and satellite imagery, Regrow is able to generate detailed data on farmland, enhancing the ability to monitor and improve sustainable practices on a large scale.
+
+Regrow has collaborated with General Mills to track the adoption of regenerative agriculture practices across 175 million acres of agricultural land, globally. This effort involves using remote sensing technology and modeling (employing GEE) to monitor and verify regenerative techniques. The partnership is aiming to enhance resilience in General Mills' supply chain by making well-informed decisions about investing in regenerative programs, with the aim of reducing greenhouse gas emissions by 30% by 2030 (although, in my personal view, this 30% target does not seem particularly revolutionary or impressive; the [UK government](https://www.gov.uk/government/news/pm-recommits-uk-to-net-zero-by-2050-and-pledges-a-fairer-path-to-achieving-target-to-ease-the-financial-burden-on-british-families) has set its target at 68%, though the baseline level for each may vary).
+
+Regrow and General Mills utilised the [Operational Tillage Information System (OpTIS)](https://www.ctic.org/OpTIS_Information) and [DeNitrification-DeComposition (DNDC)](https://www.ipbes.net/policy-support/tools-instruments/dndc-denitrification-decomposition) models for their project. OpTIS leverages satellite imagery to monitor and verify regenerative agriculture techniques, including tillage reduction and cover-crop adoption. The data from OpTIS feeds into the DNDC model, which simulates nutrient cycling in soil to predict crop growth, soil temperature and moisture, carbon dynamics, nitrogen leaching, and trace gases emissions and thus estimate net changes in greenhouse gas emissions.
+
 ## Reflection

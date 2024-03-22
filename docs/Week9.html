@@ -175,7 +175,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#practical-change-detection-with-sar" id="toc-practical-change-detection-with-sar" class="nav-link" data-scroll-target="#practical-change-detection-with-sar"><span class="header-section-number">8.1.2</span> Practical Change Detection with SAR</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">8.1.3</span> Key Takeaways</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">8.2</span> Application</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">8.2</span> Application</a>
+  <ul class="collapse">
+  <li><a href="#rice-crop-monitoring" id="toc-rice-crop-monitoring" class="nav-link" data-scroll-target="#rice-crop-monitoring"><span class="header-section-number">8.2.1</span> Rice Crop Monitoring</a></li>
+  <li><a href="#wetland-monitoring" id="toc-wetland-monitoring" class="nav-link" data-scroll-target="#wetland-monitoring"><span class="header-section-number">8.2.2</span> <strong>Wetland Monitoring</strong></a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">8.3</span> Reflection</a></li>
   </ul>
 </nav>
@@ -235,9 +239,29 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="application"><span class="header-section-number">8.2</span> Application</h2>
+<section id="rice-crop-monitoring" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="rice-crop-monitoring"><span class="header-section-number">8.2.1</span> Rice Crop Monitoring</h3>
+<p>In Japan, a <a href="https://www.mdpi.com/2072-4292/14/14/3254">study</a> leveraged C-band microwave images from Sentinel-1 satellites to monitor rice crop growth. The research aimed to understand how microwave backscatter behavior is influenced by decreases in panicle water content during ripening, which affects C-band backscatter. The findings demonstrated that Sentinel-1 images with shallow incidence angles and high revisit capabilities hold significant potential for estimating panicle water content, thereby providing a method to estimate the proper harvesting time based on grain filling conditions​​.</p>
+</section>
+<section id="wetland-monitoring" class="level3" data-number="8.2.2">
+<h3 data-number="8.2.2" class="anchored" data-anchor-id="wetland-monitoring"><span class="header-section-number">8.2.2</span> <strong>Wetland Monitoring</strong></h3>
+<p>A <a href="https://www.mdpi.com/2072-4292/12/14/2190">comprehensive meta-analysis</a> revealed SAR’s capability in wetland monitoring, emphasising its unique potential for rapid and accurate mapping of wetland extent and type. This study reviewed 172 papers, and highlighted an upward trend in the use of SAR data for wetland research, with attention to the benefits of integrating multi-sensor data and the advantages of using multi-frequency and multi-polarised SAR data for higher classification accuracy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week9/remotesensing-12-02190-g012.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Number of studies for wetland mapping, change detection, water level monitoring, inundation mapping (water extraction), biomass and soil moisture application are shown (Adeli et al, 2020)</figcaption>
+</figure>
+</div>
+<p>The study also identified challenges in applying SAR for wetland monitoring, such as the backscattering similarity among different wetland classes and the selection of appropriate SAR specifications based on wetland type. They suggest that the issue of backscattering similarity is best addressed through the use of supervised machine learning techniques (such as SVM, MLC, or Object-Based Random Forests).</p>
+<blockquote class="blockquote">
+<p><em>“Changes in wetlands alter the surface being illuminated by the SAR signal and consequently change the image intensity or backscattering mechanism. The final outcome of intensity based change detection technique is calculated by differencing before and after phenomena image pixels. As mentioned, a change in the backscattering mechanism can be considered as an indicator of change in the surface type. As a case in point, when a wet soil turns into an open water body the backscattering mechanism changes from surface scattering to specular scattering. If the wetland surface is more complex, polarimetric features can be used as an input to object-based classification.”</em></p>
+<p>- Adeli et al (2020, p.&nbsp;17)</p>
+</blockquote>
+</section>
 </section>
 <section id="reflection" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.3</span> Reflection</h2>
+<p>What struck me this week is the ability of SAR to detect micro changes. Due to the properties of the waves being used (very small wavelengths), through implementing change detection (looking at one period in time compared to another), it is possible to detect cm changes in the elevation of the land.</p>
 
 
 </section>

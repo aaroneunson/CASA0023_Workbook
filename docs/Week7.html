@@ -177,7 +177,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#machine-learning-and-classification-techniques" id="toc-machine-learning-and-classification-techniques" class="nav-link" data-scroll-target="#machine-learning-and-classification-techniques"><span class="header-section-number">6.1.4</span> Machine Learning and Classification Techniques</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a>
+  <ul class="collapse">
+  <li><a href="#random-forests-in-land-cover-classification" id="toc-random-forests-in-land-cover-classification" class="nav-link" data-scroll-target="#random-forests-in-land-cover-classification"><span class="header-section-number">6.2.1</span> <strong>Random Forests in Land Cover Classification</strong></a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   </ul>
 </nav>
@@ -225,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="key-takeaways" class="level3" data-number="6.1.5">
 <h3 data-number="6.1.5" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.1.5</span> Key Takeaways</h3>
 <ul>
-<li><p>The notes underscore the critical role of remote sensing and classification techniques in understanding and monitoring environmental changes.</p></li>
+<li><p>Classification techniques are vital for understanding and monitoring environmental changes, especially in response to more complex, data-intensive situations.</p></li>
 <li><p>Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.</p></li>
 <li><p>The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.</p></li>
 </ul>
@@ -233,6 +236,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<section id="random-forests-in-land-cover-classification" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="random-forests-in-land-cover-classification"><span class="header-section-number">6.2.1</span> <strong>Random Forests in Land Cover Classification</strong></h3>
+<p>The use of Random Forests (RF) for land cover classification means that more accurate maps of land use and cover can be developed, allowing policymakers to better assess the status of natural habitats, plan conservation areas, and monitor changes over time, as well as many other uses related to urban planning, economic and environmental development, etc. Its application has supported biodiversity conservation policies by identifying critical habitats and tracking the effectiveness of conservation measures.</p>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271611001304">Rodriguez-Galiano et al (2012)</a> explore the effectiveness of the RF classifier for land cover classification in a notably complex area, using multi-temporal Landsat-5 Thematic Mapper data and variables from a DEM. The study area focused on the Province of Granada in the south of Spain, which is characterised by a diverse range of land cover types. Random Forests is shown to provide a high classification accuracy, the ability to handle large datasets with noise, and its flexibility across different types of data analysis without requiring assumptions about data distribution.</p>
+<p>Some key findings from the study include:</p>
+<ul>
+<li><p>The RF classifier achieved a high level of mapping accuracy for land cover classification, reaching an overall accuracy of 92% and a Kappa index of 0.92 (indicating excellent agreement beyond chance).</p></li>
+<li><p>RF’s robustness was notable against reductions in training data size and the addition of noise. Significant decreases in accuracy were observed only when training data was reduced by more than 50% and noise was added above 20%.</p></li>
+<li><p>It was identified that texture and geostatistical measures (such as madograms, rodograms, direct variograms, cross- and pseudo-cross variograms), alongside multi-seasonal spectral information, are the most important variables for classification, which had aligned with prior expectations. This helps in understanding the factors influencing land cover types.</p></li>
+<li><p>Compared to a single decision tree, RF demonstrated superior performance, validated by a McNemar test with a significance level of 0.00001, suggesting that RF is a more reliable method for land cover classification in complex areas.</p></li>
+</ul>
+<p>The study underscores the value of RF as a machine learning technique for land cover monitoring, particularly in large, heterogeneous landscapes. Its ability to maintain high accuracy despite data challenges and its non-parametric nature make it a powerful tool for remote sensing applications. This work not only validates the efficacy of RF in classifying complex land cover types but also encourages its broader adoption in the remote sensing community for large-scale environmental monitoring and analysis.</p>
+<p><strong>Literature Reference:</strong> Rodriguez-Galiano, V.F., et al.&nbsp;(2012). “An assessment of the effectiveness of a random forest classifier for land-cover classification.” ISPRS Journal of Photogrammetry and Remote Sensing, 67, 93–104.</p>
+</section>
 </section>
 <section id="reflection" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>

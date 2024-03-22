@@ -6,32 +6,50 @@ This week has focussed on the application and classification of remotely sensed 
 
 It incorporates the use of various sensors like Landsat, Sentinel-3, and Sentinel-5, along with different methodologies including regression analysis, hex grids (honeycombing), and statistical comparisons.
 
-### Urban Expansion and Air Pollution 
-The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis.
-A case study highlights the LULC distribution's significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.
+### Urban Expansion and Air Pollution
+
+The impact of LULC changes on air pollution is examined through major air pollutants (MAP) and land surface temperature (LST) using sensors and regression analysis. A case study highlights the LULC distribution's significant effect on MAP and LST in Iran, relying on data from the National Cartographic Center without specifying the accuracy or methods used in detail.
 
 ### Urban Green Spaces
-Different techniques and sensors are used to study urban green spaces, indicating a mix of methodologies like hybrid methods, object-based image analysis, and various mapping purposes.
-The importance of accurate mapping and classification of urban green areas is emphasized through inventory and assessment, ecosystem services, and species mapping.
 
+Different techniques and sensors are used to study urban green spaces, indicating a mix of methodologies like hybrid methods, object-based image analysis, and various mapping purposes. The importance of accurate mapping and classification of urban green areas is emphasized through inventory and assessment, ecosystem services, and species mapping.
 
 ### Monitoring Forests and Illegal Logging
-Challenges in monitoring illegal logging in Brazil’s Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas.
-The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.
+
+Challenges in monitoring illegal logging in Brazil's Amapá are discussed, including limited resources and the utilization of tools like Global Forest Watch and Landsat for identifying deforestation areas. The section also covers forest loss monitoring techniques, such as pre-processing Landsat images and creating metrics for classification and analysis.
 
 ### Machine Learning and Classification Techniques
-An exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis.
-Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets.
-Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.
+
+An exploration of expert systems, machine learning principles, and the role of inductive learning in environmental data analysis. Detailed discussion on classification and regression trees (CART), including the concept of Gini impurity, decision trees, and random forests for handling complex environmental datasets. Introduction to image classification techniques, both supervised and unsupervised, including maximum likelihood classification and support vector machines (SVM), highlighting their applications in remote sensing data classification.
 
 ### Key Takeaways
 
-- The notes underscore the critical role of remote sensing and classification techniques in understanding and monitoring environmental changes.
+-   Classification techniques are vital for understanding and monitoring environmental changes, especially in response to more complex, data-intensive situations.
 
-- Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.
+-   Various sensors and analytical methods are applied to study phenomena like urban expansion, air pollution, green spaces, and deforestation, demonstrating the interdisciplinary nature of environmental remote sensing.
 
-- The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.
+-   The application of machine learning and classification algorithms, such as CART, SVM, and decision trees, illustrates the advanced methods used to interpret and classify large datasets in environmental studies.
 
 ## Application
+
+### **Random Forests in Land Cover Classification**
+
+The use of Random Forests (RF) for land cover classification means that more accurate maps of land use and cover can be developed, allowing policymakers to better assess the status of natural habitats, plan conservation areas, and monitor changes over time, as well as many other uses related to urban planning, economic and environmental development, etc. Its application has supported biodiversity conservation policies by identifying critical habitats and tracking the effectiveness of conservation measures.
+
+[Rodriguez-Galiano et al (2012)](https://www.sciencedirect.com/science/article/abs/pii/S0924271611001304) explore the effectiveness of the RF classifier for land cover classification in a notably complex area, using multi-temporal Landsat-5 Thematic Mapper data and variables from a DEM. The study area focused on the Province of Granada in the south of Spain, which is characterised by a diverse range of land cover types. Random Forests is shown to provide a high classification accuracy, the ability to handle large datasets with noise, and its flexibility across different types of data analysis without requiring assumptions about data distribution.
+
+Some key findings from the study include:
+
+-   The RF classifier achieved a high level of mapping accuracy for land cover classification, reaching an overall accuracy of 92% and a Kappa index of 0.92 (indicating excellent agreement beyond chance).
+
+-   RF's robustness was notable against reductions in training data size and the addition of noise. Significant decreases in accuracy were observed only when training data was reduced by more than 50% and noise was added above 20%.
+
+-   It was identified that texture and geostatistical measures (such as madograms, rodograms, direct variograms, cross- and pseudo-cross variograms), alongside multi-seasonal spectral information, are the most important variables for classification, which had aligned with prior expectations. This helps in understanding the factors influencing land cover types.
+
+-   Compared to a single decision tree, RF demonstrated superior performance, validated by a McNemar test with a significance level of 0.00001, suggesting that RF is a more reliable method for land cover classification in complex areas.
+
+The study underscores the value of RF as a machine learning technique for land cover monitoring, particularly in large, heterogeneous landscapes. Its ability to maintain high accuracy despite data challenges and its non-parametric nature make it a powerful tool for remote sensing applications. This work not only validates the efficacy of RF in classifying complex land cover types but also encourages its broader adoption in the remote sensing community for large-scale environmental monitoring and analysis.
+
+**Literature Reference:** Rodriguez-Galiano, V.F., et al. (2012). "An assessment of the effectiveness of a random forest classifier for land-cover classification." ISPRS Journal of Photogrammetry and Remote Sensing, 67, 93--104.
 
 ## Reflection
