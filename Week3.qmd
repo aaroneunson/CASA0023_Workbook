@@ -58,10 +58,58 @@ Advanced techniques can add value to the imagery but also introduce complexity. 
 
 ## Application
 
+[**1. Loading Tiles**]{.underline}
+
+In the below I have downloaded two satellite image collections from [USGS](https://earthexplorer.usgs.gov/). They pertain to an area of Northern France, part of the English Channel, and South-East England.
+
+::: columns
+::: {.column width="47%"}
+![Loaded Tile (north) - 'LC08_L2SP_200025_20230604_20230607_02_T1'; displaying the raw bands](/Week3Content/north_original.png)
+:::
+
+::: {.column width="47%" style="margin-left:3%;"}
+![Loaded Tile (south) - 'LC08_L2SP_200026_20230604_20230607_02_T1'; displaying the raw bands](/Week3Content/south_original.png)
+:::
+:::
+
+> Here we can see the different band values (the 'layers' of the images, reflecting the levels of reflectance of that correlating wavelength) for the individual tiles
+
+[**2. Merge Tiles**]{.underline}
+
+![Merged Tile](/Week3Content/band_breakdown.png)
+
+> Here we can see the different band values for the merged tiles together
+
+[**3.1 Enhancements: Ratio**]{.underline}
+
+![Ratio Enhancement - NVDI](/Week3Content/ndvi_merged.png)
+
+> Values are calculated using the NDVI formula above. Band 4 is Near-Infrared, while Band 5 is Red
+
 ![Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile](/Week3Content/ndvi_greater_0.2_mergedtile.png)
+
+> Here I have pulled out the values where the NDVI is greater than 0.2 (typically regarded as a good threshold level for healthy vegetation). Values less than 0.2 are simply displayed as white. We can see the difference between this and the first image generated for NDVI; especially when looking at water - no water is highlighted (due to not reflecting enough of those bands), consequently we are left with an image which describes the spatial arrangement of healthy vegetation.
+
+[**Clipping the Merged Tile to a Study Area**]{.underline}
+
+![Sample Area; clipped from merged tile](/Week3Content/clip_merged_area_to_study_area.png)
+
+[**3.2 Enhancements: Texture**]{.underline}
 
 ![Texture Enhancement - Sample Area](/Week3Content/texture_enhancement.png)
 
+> Here a texture enhancement has been performed on the study area. Higher values (closer to 1) from a texture analysis suggest that the area is more homogeneous (less contrast in the pixel values and a consequential smoother texture). This thus indicates homogeneous areas like open water, fields, or smooth and barren land, depending on the context of the image and other geographic data. The green areas have higher values, which seems appropriate; they largely reflect rural France which is comprised greatly of open fields.
+
+[**3.2 Enhancements: Fusion**]{.underline}
+
+![PCA Enhancement - Sample Area](/Week3Content/raster_texture_enhancement.png)
+
+> The fusion performed here has stacked the raster layers, utilising the clipped image (the clipped study area) and the texture enhancement, on top of each other to create a multi-layer raster stack or a multi-band raster object. By comparing the homogeneity layer with the spectral layers, we can identify areas where the spectral data alone may not have been as informative. For example, if a green area in the homogeneity layer corresponds with a unique feature in one of the spectral layers, this could indicate a region of interest for further investigation.
+
+[**3.3 Enhancements: PCA**]{.underline}
+
 ![PCA Enhancement - Sample Area](/Week3Content/pca_enhancement.png)
+
+> PCA transforms the original correlated variables into a new set of uncorrelated variables, called principal components (PCs), which are ordered so that the first few retain most of the variation present in the original dataset. Essentially it can be used to reduce the number of dimensions of a dataset. The first image is the one of most interest here - that new dimension effectively helps to explain most of the variance amongst other dimensions.
 
 ## Reflection

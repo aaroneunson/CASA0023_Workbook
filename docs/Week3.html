@@ -253,24 +253,94 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="application"><span class="header-section-number">3.2</span> Application</h2>
+<p><u><strong>1. Loading Tiles</strong></u></p>
+<p>In the below I have downloaded two satellite image collections from <a href="https://earthexplorer.usgs.gov/">USGS</a>. They pertain to an area of Northern France, part of the English Channel, and South-East England.</p>
+<div class="columns">
+<div class="column" style="width:47%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/north_original.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Loaded Tile (north) - ‘LC08_L2SP_200025_20230604_20230607_02_T1’; displaying the raw bands</figcaption>
+</figure>
+</div>
+</div><div class="column" style="margin-left:3%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/south_original.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Loaded Tile (south) - ‘LC08_L2SP_200026_20230604_20230607_02_T1’; displaying the raw bands</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Here we can see the different band values (the ‘layers’ of the images, reflecting the levels of reflectance of that correlating wavelength) for the individual tiles</p>
+</blockquote>
+<p><u><strong>2. Merge Tiles</strong></u></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/band_breakdown.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Merged Tile</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>Here we can see the different band values for the merged tiles together</p>
+</blockquote>
+<p><u><strong>3.1 Enhancements: Ratio</strong></u></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/ndvi_merged.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Ratio Enhancement - NVDI</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>Values are calculated using the NDVI formula above. Band 4 is Near-Infrared, while Band 5 is Red</p>
+</blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\Week3Content/ndvi_greater_0.2_mergedtile.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Ratio Enhancement - NVDI Greater Than 0.2; Merged Tile</figcaption>
 </figure>
 </div>
+<blockquote class="blockquote">
+<p>Here I have pulled out the values where the NDVI is greater than 0.2 (typically regarded as a good threshold level for healthy vegetation). Values less than 0.2 are simply displayed as white. We can see the difference between this and the first image generated for NDVI; especially when looking at water - no water is highlighted (due to not reflecting enough of those bands), consequently we are left with an image which describes the spatial arrangement of healthy vegetation.</p>
+</blockquote>
+<p><u><strong>Clipping the Merged Tile to a Study Area</strong></u></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/clip_merged_area_to_study_area.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Sample Area; clipped from merged tile</figcaption>
+</figure>
+</div>
+<p><u><strong>3.2 Enhancements: Texture</strong></u></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\Week3Content/texture_enhancement.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Texture Enhancement - Sample Area</figcaption>
 </figure>
 </div>
+<blockquote class="blockquote">
+<p>Here a texture enhancement has been performed on the study area. Higher values (closer to 1) from a texture analysis suggest that the area is more homogeneous (less contrast in the pixel values and a consequential smoother texture). This thus indicates homogeneous areas like open water, fields, or smooth and barren land, depending on the context of the image and other geographic data. The green areas have higher values, which seems appropriate; they largely reflect rural France which is comprised greatly of open fields.</p>
+</blockquote>
+<p><u><strong>3.2 Enhancements: Fusion</strong></u></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\Week3Content/raster_texture_enhancement.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">PCA Enhancement - Sample Area</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>The fusion performed here has stacked the raster layers, utilising the clipped image (the clipped study area) and the texture enhancement, on top of each other to create a multi-layer raster stack or a multi-band raster object. By comparing the homogeneity layer with the spectral layers, we can identify areas where the spectral data alone may not have been as informative. For example, if a green area in the homogeneity layer corresponds with a unique feature in one of the spectral layers, this could indicate a region of interest for further investigation.</p>
+</blockquote>
+<p><u><strong>3.3 Enhancements: PCA</strong></u></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\Week3Content/pca_enhancement.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">PCA Enhancement - Sample Area</figcaption>
 </figure>
 </div>
+<blockquote class="blockquote">
+<p>PCA transforms the original correlated variables into a new set of uncorrelated variables, called principal components (PCs), which are ordered so that the first few retain most of the variation present in the original dataset. Essentially it can be used to reduce the number of dimensions of a dataset. The first image is the one of most interest here - that new dimension effectively helps to explain most of the variance amongst other dimensions.</p>
+</blockquote>
 </section>
 <section id="reflection" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
